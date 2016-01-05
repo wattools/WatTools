@@ -1,0 +1,56 @@
+<li class="item">
+  <div class="name field-value">
+    <a href="{{ entry.get("Name").get("url") }}">{{ entry.get("Name").get("text") }}</a>
+  </div>
+
+  {% if 'Description' in entry %}
+  <div class="desc field-value">
+    {{ entry.get("Description").get("text") }}
+  </div>
+  {% endif %}
+
+  {% if 'Source Code' in entry %}
+  <div class="source field-value">
+    Source code: <a href="{{ entry.get("Source Code").get("url") }}">{{ entry.get("Source Code").get("text") }}</a>
+  </div>
+  {% endif %}
+
+  {% if 'Author' in entry %}
+  <div class="author field-value">
+    Author:
+    {% if url in entry['Author'] %}
+    <a href="{{ entry.get("Author").get("url") }}">{{ entry.get("Author").get("text") }}</a>
+    {% else %}
+    {{ entry.get("Author").get("text") }}
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if 'Author 2' in entry %}
+  <div class="author2 field-value">
+    Author 2:
+    {% if url in entry['Author 2'] %}
+    <a href="{{ entry.get("Author 2").get("url") }}">{{ entry.get("Author 2").get("text") }}</a>
+    {% else %}
+    {{ entry.get("Author 2").get("text") }}
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if 'Authors' in entry %}
+  <div class="authors field-value">
+    Authors:
+    {% if url in entry['Authors'] %}
+    <a href="{{ entry.get("Authors").get("url") }}">{{ entry.get("Authors").get("text") }}</a>
+    {% else %}
+    {{ entry.get("Authors").get("text") }}
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if 'Download' in entry %}
+  <div class="source field-value">
+    Download: <a href="{{ entry.get("Download").get("url") }}">{{ entry.get("Download").get("text") }}</a>
+  </div>
+  {% endif %}
+</li>

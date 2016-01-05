@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta property="og:title" content="Waterloo Tools" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://uwaterloo.xyz" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Waterloo Tools" />
+  <meta property="fb:admins" content="100000486272805" />
+  <title>Waterloo Tools - A collection of tools for University of Waterloo students</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-responsive.min.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+
+
+  <!-- I HATE IE -->
+  <!--[if lte IE 7.0]>
+  <style type="text/css">
+  .grid li {display:inline;}
+  </style>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="header">
+    <div class='title'><a href="/">WatTools</a></div>
+    <div class='header-description'>A collection of tools for Waterloo students, by students.</div>
+    <div class='header-description'>This is a wiki. Submit your own revisions of the list!</div>
+  </div>
+  <div class="social">
+    <div class="social_item">
+      <iframe src="https://www.facebook.com/plugins/like.php?app_id=155945941150696&amp;href=wattools.com&amp;send=false&amp;layout=box_count&amp;width=55&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:55px; height:90px;" allowTransparency="true"></iframe>
+    </div>
+    <div class="social_item">
+      <div class="g-plusone" data-size="tall" data-href="https://uwaterloo.xyz"></div>
+    </div>
+    <div class="social_item">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-url="https://uwaterloo.xyz" data-text="I just found some useful tools for #uwaterloo students" data-count="vertical" data-via="wattools">Tweet</a>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+
+  <p id="global-thanks" class="text-success"></p>
+  <div class="app">
+    <ul id="items" class="grid">
+    {% for entry in entries %}
+    {% include 'entry.html'%}
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div>Greetings traveler, <br/>Thank you for your interest in this site. This site is built by <a href="http://viktorstanchev.com">Viktor Stanchev</a>. All the source code is available on <a href="http://github.com/vikstrous/WatTools">github.com</a></div>
+  <div><noscript><p class="text-error">Please enable javascript to view the email address. This is done to avoid spam.</p></noscript>
+  Please send any questions or requests to <script>document.write('wattools'+String.fromCharCode(64)+'gmail.com');</script>.
+  </div>
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10239938-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery-ui-1.10.0.custom.min.js') }}"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

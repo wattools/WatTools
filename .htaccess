@@ -1,6 +1,0 @@
-<Files .adminpassword>
-  order allow,deny
-  deny from all
-</Files>
-IndexIgnore *
-ServerSignature Off

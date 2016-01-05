@@ -1,0 +1,111 @@
+{"Jobmine": [
+    {
+      "Name": {
+        "text": "JobMine Buddy",
+        "url": "https://chrome.google.com\/webstore\/detail\/jobmine-buddy\/jimpkgjepjjmbmkeocklkcmjnelcnlci"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "Chrome plugin that highlights newly posted jobs and lets you create and view notes about each job posting right in JobMine!"
+      },
+      "Author": {
+        "text": "Sahil Saini"
+      }
+    },
+    {
+      "Name": {
+        "text": "Jobmine Mobile",
+        "url": "https://play.google.com\/store\/apps\/details?id=com.jobmine"
+      },
+      "sort_id": "2",
+      "Description": {
+        "text": "It's the University of Waterloo's Jobmine job board, on your phone\/tablet! Now, you can view your applications and interviews on the go, with notifications for when you finally get that interview!"
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cfayoux\/Jobmine-Android"
+      },
+      "Author": {
+        "text": "Tony Du"
+      }
+    },
+    {
+      "Name": {
+        "text": "UW Info Session (iOS app)",
+        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "UWaterloo Info Session is an unofficial iOS app used by students at University of Waterloo to query updated employer information sessions. Never look up the info session calendar again!"
+      },
+      "Author": {
+        "text": "Honghao Zhang",
+        "url": "http://honghaoz.com\/"
+      },
+      "Download": {
+        "text": "App Store",
+        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
+      }
+    },
+    {
+      "Name": {
+        "text": "Understanding Jobmine job states",
+        "url": "http://www.reddit.com\/r\/uwaterloo\/comments\/192m22\/for_all_you_jobmine_newbies_heres_a_list_of\/"
+      },
+      "sort_id": -1,
+      "Author": {
+        "text": "Pango56",
+        "url": "http://www.reddit.com\/user\/Pango56"
+      }
+    },
+    {
+      "Name": {
+        "text": "Rate My Co-op Job",
+        "url": "http://www.ratemycoopjob.com\/"
+      },
+      "sort_id": "17",
+      "Description": {
+        "text": " With this site you can see what other students think of their past co-op experiences and use that info to find the best position for you. At the end of the day we just want to help you find the most awesome co-op job ever!"
+      },
+      "Author": {
+        "text": "Rate My Co-op Job Team"
+      }
+    },
+    {
+      "Name": {
+        "text": "JobMine Interview Notifier",
+        "url": "http://soarescode.com\/jobmine_interview_notifier\/"
+      },
+      "sort_id": "23",
+      "Description": {
+        "text": "Allows you to set up automated interview notifications."
+      },
+      "Author": {
+        "text": "Mike Soares",
+        "url": "http://www.mikesoares.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "Jobmine Plus",
+        "url": "http://userscripts.org\/scripts\/show\/80771"
+      },
+      "sort_id": "33",
+      "Description": {
+        "text": "Makes JobMine faster, easier to use, and less aesthetically painful."
+      },
+      "Source Code": {
+        "text": "userscripts.org",
+        "url": "http://userscripts.org\/scripts\/review\/80771"
+      },
+      "Author": {
+        "text": "Matthew Ng",
+        "url": "http://userscripts.org\/users\/matthewng"
+      },
+      "Source Code:": {
+        "text": "userscripts.org",
+        "url": "http://userscripts.org\/scripts\/review\/80771"
+      }
+    }
+  ]
+}

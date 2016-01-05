@@ -14,7 +14,6 @@
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
   <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 
-
   <!-- I HATE IE -->
   <!--[if lte IE 7.0]>
   <style type="text/css">
@@ -27,7 +26,7 @@
   <div class="header">
     <div class='title'><a href="/">WatTools</a></div>
     <div class='header-description'>A collection of tools for Waterloo students, by students.</div>
-    <div class='header-description'>This is a wiki. Submit your own revisions of the list!</div>
+    <div class='header-description'>This is a wiki. <a href="https://github.com/kyl191/WatTools/issues">Submit your own revisions of the list!</a></div>
   </div>
   <div class="social">
     <div class="social_item">
@@ -40,21 +39,25 @@
       <a href="http://twitter.com/share" class="twitter-share-button" data-url="https://uwaterloo.xyz" data-text="I just found some useful tools for #uwaterloo students" data-count="vertical" data-via="wattools">Tweet</a>
     </div>
   </div>
+  <a href="https://github.com/kyl191/WatTools"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
   <div class="clearfix"></div>
 
   <p id="global-thanks" class="text-success"></p>
   <div class="app">
-    <ul id="items" class="grid">
-    {% for entry in entries %}
-    {% include 'entry.html'%}
+    {% for d in dicts %}
+      {% for key, value in d.iteritems() %}
+        <h2>{{ key }}</h2>
+        <ul id="items-{{key}}" class="grid">
+         {% for entry in value %}
+          {% include 'entry.html' %}
+         {% endfor %}
+       </ul>
+       <hr>
+       {% endfor %}
     {% endfor %}
-    </ul>
   </div>
 
-  <div>Greetings traveler, <br/>Thank you for your interest in this site. This site is built by <a href="http://viktorstanchev.com">Viktor Stanchev</a>. All the source code is available on <a href="http://github.com/vikstrous/WatTools">github.com</a></div>
-  <div><noscript><p class="text-error">Please enable javascript to view the email address. This is done to avoid spam.</p></noscript>
-  Please send any questions or requests to <script>document.write('wattools'+String.fromCharCode(64)+'gmail.com');</script>.
-  </div>
+  <div>Greetings traveler, <br/>Thank you for your interest in this site. This site is built by <a href="http://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/kyl191/WatTools">Github</a></div>
 
   <script type="text/javascript">
 
@@ -76,7 +79,7 @@
   </script>
   <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery-ui-1.10.0.custom.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-ui-1.10.0.custom.min.js') }}"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   </body>

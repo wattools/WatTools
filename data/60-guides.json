@@ -1,0 +1,52 @@
+{"Guides":[
+    {
+      "Name": {
+        "text": "UW Engineering Student Guide",
+        "url": "https://ece.uwaterloo.ca\/~pmadhiya\/Site\/Engineering.html "
+      },
+      "sort_id": "8",
+      "Description": {
+        "text": "A collection of tips, resources, and services around Waterloo to help students succeed in University. If you are a senior, please contribute. "
+      },
+      "Author": {
+        "text": "Prashanth Madhi",
+        "url": "http://ece.uwaterloo.ca\/~pmadhiya"
+      }
+    },
+    {
+      "Name": {
+        "text": "Waterloo-USA Intern Guide",
+        "url": "https://stephenholiday.com/Unofficial-Waterloo-USA-Intern-Guide/"
+      },
+      "sort_id": "9",
+      "Description": {
+        "text": "If you are considering a co-op term in the US, or are preparing for one, make sure you read this! If you just finished one, please contribute."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/sholiday\/Unofficial-Waterloo-USA-Intern-Guide"
+      },
+      "Author": {
+        "text": "Stephen Holiday",
+        "url": "http://stephenholiday.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "What I Wish I Knew for the Design Project",
+        "url": "http://se2014.com\/blog\/2012\/04\/06\/what-i-wish-i-knew-for-the-design-project\/"
+      },
+      "sort_id": "11",
+      "Description": {
+        "text": "Having completed their design projects, the 2012 class of Software Engineering gave an informal presentation on Thursday to share their experiences."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cbhl\/se2014.com\/blob\/master\/source\/_posts\/2012-04-06-what-i-wish-i-knew-for-the-design-project.markdown"
+      },
+      "Author": {
+        "text": "SE2012 \/ SE 2014"
+      }
+    }
+  ]
+}

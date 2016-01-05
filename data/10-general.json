@@ -1,0 +1,271 @@
+{"General":[
+    {
+      "Name": {
+        "text": "Weatherloo - Chrome extension",
+        "url": "https://github.com\/neivin\/weatherloo\/releases\/tag\/v1.0"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "A simple chrome extension that displays weather and 7-day forecast information. Boasting a beautifully clean user interface, Weatherloo uses the UW Weather Station and OpenWeatherMap to satisfy your weather needs."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com\/neivin\/weatherloo"
+      },
+      "Author": {
+        "text": "Neivin Mathew"
+      }
+    },
+    {
+      "Name": {
+        "text": "You Want Food",
+        "url": "https://projects.zacharyseguin.ca/you-want-food/"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "Displays which food outlets are currently open, their hours and menu.\nSignup to receive the daily menu by email."
+      },
+      "Source Code": {
+        "text": "GitHub",
+        "url": "https://github.com\/zachomedia\/you-want-food"
+      },
+      "Author": {
+        "text": "Zachary Seguin",
+        "url": "https://zacharyseguin.ca"
+      }
+    },
+    {
+      "Name": {
+        "text": "WATisRain",
+        "url": "https://play.google.com\/store\/apps\/details?id=com.lucky.watisrain"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "WATisRain is an Android app to help you navigate the buildings of the University of Waterloo without going outside (ie, by going through the various tunnels between buildings). This may prove to be useful when it's raining outside, or if it's freezing cold."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/luckytoilet\/WATisRain"
+      },
+      "Author": {
+        "text": "Bai Li",
+        "url": "http://luckytoilet.wordpress.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "OMGUW Reader",
+        "url": "https://play.google.com\/store\/apps\/details?id=com.romantymchyk.omguwreader"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "The OMGUW Reader Android app is an easy way to browse University of Waterloo's favourite blog."
+      },
+      "Author": {
+        "text": "Roman Tymchyk"
+      }
+    },
+    {
+      "Name": {
+        "text": "Waterloo GPS",
+        "url": "https://github.com\/yingted\/EDTALKS"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "Android app which finds the shortest path between two floors in two buildings on campus that does not go outside. Created at EngHack 2013. "
+      },
+      "Source Code": {
+        "text": "Fork me on Github",
+        "url": "https://github.com\/yingted\/EDTALKS"
+      },
+      "Download": {
+        "text": "EDTALKS.apk",
+        "url": "https://db.tt\/vBkMVi7G"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatMine",
+        "url": "https://chrome.google.com\/webstore\/detail\/watmine\/oehnjmhgpdbjiipgeahdfmmbnldakogp"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "WatMine is a Chrome extension which performs several functions. Notable ones include auto-login to all CAS sites including LEARN, feds.ca, and JobMine. One-click WatCard and XAS balances with low balance alerts. One-click LEARN activity list from the Chrome toolbar and the option to expand LEARN pages to fill the screen"
+      },
+      "Author": {
+        "text": "Mark Furneaux"
+      },
+      "Download": {
+        "text": "WatMine",
+        "url": "https://chrome.google.com\/webstore\/detail\/watmine\/oehnjmhgpdbjiipgeahdfmmbnldakogp"
+      }
+    },
+    {
+      "Name": {
+        "text": "UW Menu",
+        "url": "http://uwmenu.com"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "Weekly menus for the University of Waterloo's on-campus eateries."
+      },
+      "Source Code": {
+        "text": "GitHub",
+        "url": "https://github.com\/alykhank\/FoodMenu"
+      },
+      "Author": {
+        "text": "Alykhan Kanji",
+        "url": "http://alykhan.com"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatApp",
+        "url": "https://play.google.com\/store\/apps\/details?id=watapp.main"
+      },
+      "sort_id": "1",
+      "Description": {
+        "text": "WatApps is an unofficial Android App created by UW staff and students with partial funding from Google. "
+      },
+      "Source Code": {
+        "text": "Waterloo",
+        "url": "http://watapp.cs.uwaterloo.ca\/src\/"
+      },
+      "Author": {
+        "text": "Charlie Clarke",
+        "url": "http://plg.uwaterloo.ca\/~claclark\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "wat do?",
+        "url": "http://www.wat-do.com\/"
+      },
+      "sort_id": "4",
+      "Description": {
+        "text": "A web utility that allows you to easily manage assignments and due dates."
+      },
+      "Authors": {
+        "text": "Jacob Wirth, Justin Li",
+        "url": "http://frustra.org\/"
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/Frustra\/wat-do"
+      }
+    },
+    {
+      "Name": {
+        "text": "GRTransit Android app",
+        "url": "http://baleka.org\/gdmalet\/android\/grtransit\/"
+      },
+      "sort_id": "6",
+      "Description": {
+        "text": "An app for Android that displays bus route and stop information, as well as bus times."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/gdmalet\/grtransit"
+      },
+      "Author": {
+        "text": "Giles Malet"
+      },
+      "Download": {
+        "text": "Play store",
+        "url": "https://play.google.com\/store\/apps\/details?id=net.kw.shrdlu.grtgtfs"
+      }
+    },
+    {
+      "Name": {
+        "text": "doGRT - GRT Bus Schedule",
+        "url": "https://itunes.apple.com\/ca\/app\/dogrt-grt-bus-schedule\/id495688038"
+      },
+      "sort_id": "10",
+      "Description": {
+        "text": "Look up the bus stop schedule for KW region, On, Canada. \n\n| Rotate your phone to browse all the stops on map \n| Locate the stops near you on the fly \n| View a route's path by tapping on a schedule time \n| Online update for new schedule \n| Native iPad and iPhone 5 support"
+      },
+      "Author": {
+        "text": "Greg Wang",
+        "url": "http://gregwym.info"
+      },
+      "Download": {
+        "text": "App Store",
+        "url": "https://itunes.apple.com\/ca\/app\/dogrt-grt-bus-schedule\/id495688038"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com\/doLast\/doGRT-iOS"
+      }
+    },
+    {
+      "Name": {
+        "text": "Weatherloo",
+        "url": "http://itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewSoftware?id=505098377&mt=8"
+      },
+      "sort_id": "16",
+      "Description": {
+        "text": "Weatherloo fetches and displays data from the University of Waterloo Weather Station (weather.uwaterloo.ca)."
+      },
+      "Author": {
+        "text": "Connor Cimowsky",
+        "url": "http://connorcimowsky.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "Grand River Transit",
+        "url": "https://market.android.com\/details?id=net.kw.shrdlu.grtgtfs"
+      },
+      "sort_id": "20",
+      "Description": {
+        "text": "Android app to tell you when the next bus is coming."
+      },
+      "Author": {
+        "text": "Giles Malet",
+        "url": "http://twitter.com\/#!\/gdmalet"
+      }
+    },
+    {
+      "Name": {
+        "text": "UWaterloo Subreddit",
+        "url": "http://www.reddit.com\/r\/uwaterloo"
+      },
+      "sort_id": "40",
+      "Description": {
+        "text": "News from around campus and other discussions."
+      }
+    },
+    {
+      "Name": {
+        "text": "OMG UW",
+        "url": "http://www.omguw.com\/"
+      },
+      "sort_id": "42",
+      "Description": {
+        "text": "Have one of those moments you've got to share? Got a secret you need to get off your chest? Hear something on campus so stupid it needs to be on the internet?\nThese are OMG moments.\nOMG UW is a blog dedicated to sharing these precious moments at the University of Waterloo. Inspired by FML, grouphug, PostSecret, Overheard at Western and more, this is the place to share your OMG moments easily and anonymously.\nHave fun."
+      }
+    },
+    {
+      "Name": {
+        "text": "Waterloo Tools",
+        "url": "http://wattools.com"
+      },
+      "sort_id": "43",
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/vikstrous\/WatTools"
+      },
+      "Author": {
+        "text": "Viktor Stanchev",
+        "url": "http://viktorstanchev.com"
+      },
+      "Description": {
+        "text": "A collection of tools for University of Waterloo students made by other students."
+      },
+      "Source Code:": {
+        "text": "github",
+        "url": "https://github.com\/vikstrous\/WatTools"
+      }
+    }
+]
+}

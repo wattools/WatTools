@@ -10,7 +10,7 @@ freezer = Freezer(app)
 @app.route('/')
 def index():
     dicts = []
-    files = glob.glob("data/*.json")
+    files = sorted(glob.glob("data/*.json"))
     for fname in files:
       with open(fname) as f:
         dicts.append(json.loads(f.read()))

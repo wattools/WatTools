@@ -1,6 +1,23 @@
 {"General":[
     {
       "Name": {
+        "text": "WatWhenWhere",
+        "url": "http://watwhenwhere.ca"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "A web app that allows students to find free times to hang out with friends."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/nathan4/watwhenwhere"
+      },
+      "Author": {
+        "text": "Nathaniel Woodthorpe, Edward Lu, Sarth Frey, Shakeel Rao"
+      }
+    },
+    {
+      "Name": {
         "text": "Weatherloo - Chrome extension",
         "url": "https://github.com\/neivin\/weatherloo\/releases\/tag\/v1.0"
       },

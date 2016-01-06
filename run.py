@@ -3,7 +3,6 @@
 from flask import Flask, render_template
 # flask-frozen code from https://nicolas.perriault.net/code/2012/dead-easy-yet-powerful-static-website-generator-with-flask/
 from flask_frozen import Freezer
-from collections import OrderedDict
 import glob, json, sys
 
 app = Flask(__name__)

@@ -116,7 +116,7 @@
     {
       "Name": {
         "text": "Quest Schedule Exporter",
-        "url": "http://schedule.wattools.com\/"
+        "url": "https://schedule.uwaterloo.xyz\/"
       },
       "sort_id": "32",
       "Description": {
@@ -124,7 +124,7 @@
       },
       "Source Code": {
         "text": "github",
-        "url": "https://github.com\/vikstrous\/Quest-Schedule-Exporter"
+        "url": "https://github.com\/kyl191\/Quest-Schedule-Exporter"
       },
       "Author": {
         "text": "Viktor Stanchev",

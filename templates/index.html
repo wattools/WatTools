@@ -45,7 +45,7 @@
   <p id="global-thanks" class="text-success"></p>
   <div class="app">
     {% for d in dicts %}
-      {% for key, value in d.iteritems() %}
+      {% for key, value in d.items() %}
         <h2>{{ key }}</h2>
         <ul id="items-{{key}}" class="grid">
          {% for entry in value %}

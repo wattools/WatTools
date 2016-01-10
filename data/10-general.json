@@ -53,7 +53,7 @@
     },
     {
       "Name": {
-        "text": "WATisRain",
+        "text": "WATisRain (Android)",
         "url": "https://play.google.com\/store\/apps\/details?id=com.lucky.watisrain"
       },
       "sort_id": -1,
@@ -69,6 +69,25 @@
         "url": "http://luckytoilet.wordpress.com\/"
       }
     },
+    {
+      "Name": {
+        "text": "WATisRain (iOS)",
+        "url": "https://itunes.apple.com\/us\/app\/watisrain\/id1021882430"
+      },
+      "sort_id": -1,
+      "Description": {
+        "text": "WATisRain is an iOS app to help you navigate the buildings of the University of Waterloo without going outside (ie, by going through the various tunnels between buildings). This may prove to be useful when it's raining outside, or if it's freezing cold."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/luckytoilet\/WATisRain"
+      },
+      "Author": {
+        "text": "Bai Li",
+        "url": "http://luckytoilet.wordpress.com\/"
+      }
+    },
+
     {
       "Name": {
         "text": "OMGUW Reader",

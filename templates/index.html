@@ -48,7 +48,7 @@
       {% for key, value in d.items() %}
         <h2>{{ key }}</h2>
         <ul id="items-{{key}}" class="grid">
-         {% for entry in value|sort(attribute='Name'text') %}
+         {% for entry in value|sort(attribute='Name.text') %}
           {% include 'entry.html' %}
          {% endfor %}
        </ul>

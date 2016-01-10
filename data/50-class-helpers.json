@@ -4,7 +4,6 @@
         "text": "Buhrmatter",
         "url": "https://github.com\/balasanjay\/buhrmatter"
       },
-      "sort_id": -1,
       "Description": {
         "text": "It will automatically format your C++ closer to the slightly-quirky format used in CS343 https://www.student.cs.uwaterloo.ca\/\n~cs343\/CPPCodingGuidelines.shtml"
       },
@@ -21,7 +20,6 @@
         "text": "George +",
         "url": "https://greasyfork.org\/en\/scripts\/6603-george-script-js"
       },
-      "sort_id": -1,
       "Description": {
         "text": "New features include Syntax Highlighting, Code Folding, In-Browser storage, Proof Auto-renumbering (type \")\" on a new line), Auto-complete, Code snippets (type \"a{\")"
       },
@@ -34,7 +32,6 @@
         "text": "Math 135",
         "url": "https://play.google.com\/store\/apps\/details?id=com.algebraicpropositions&hl=en"
       },
-      "sort_id": -1,
       "Author": {
         "text": "Vikas Joshi",
         "url": "http://vikasjoshi.ca\/"
@@ -56,7 +53,6 @@
         "text": "Marmoset CLI",
         "url": "https://github.com\/hkpeprah\/marmoset"
       },
-      "sort_id": -1,
       "Description": {
         "text": "This package provides both a command line script for interacting with Marmoset and a Python package to write programs\/scripts that can interact with Marmoset."
       },
@@ -78,7 +74,6 @@
         "text": "Marmo UI",
         "url": "http://www.lishid.com\/marmo-ui"
       },
-      "sort_id": -1,
       "Description": {
         "text": "MarmoUI is a greasemonkey\/userscript that improves the interface and functionality of the Marmoset submit server so you have less of a pain using it! \nThis includes an overall UI improvement with better colors and formatting of information, auto retrieval of latest submission results for display, and auto reload for submissions waiting to be tested. Also has a quick submission box for easier submissions."
       },
@@ -104,7 +99,6 @@
         "text": "Marmoset Plus",
         "url": "https://userscripts.org\/scripts\/show\/134262"
       },
-      "sort_id": "0",
       "Description": {
         "text": "Greasemonkey script to improve the Marmoset user experience. "
       },
@@ -122,7 +116,6 @@
         "text": "uw-wkrpt",
         "url": "https://github.com\/kcbanner\/uw-wkrpt"
       },
-      "sort_id": "25",
       "Description": {
         "text": "A LaTeX document class to make you life easier when writing work term reports for the University of Waterloo. The latest and most popular fork is at https://github.com\/mhyee\/uw-wkrpt"
       },

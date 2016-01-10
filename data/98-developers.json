@@ -4,7 +4,6 @@
         "text": "uwaterlooapi python module",
         "url": "https://pypi.python.org\/pypi\/uwaterlooapi"
       },
-      "sort_id": -1,
       "Description": {
         "text": "A python interface for the UW API at api.uwaterloo.ca. Install using `pip install uwaterlooapi`"
       },
@@ -22,7 +21,6 @@
         "text": "Waterloo Region Python Group",
         "url": "http://watpy.ca\/"
       },
-      "sort_id": "12",
       "Description": {
         "text": "Website for the Waterloo Regional Python users group."
       },
@@ -40,7 +38,6 @@
         "text": "uwaterloo api - python",
         "url": "https://bitbucket.org\/amjoconn\/uwaterlooapi"
       },
-      "sort_id": "13",
       "Description": {
         "text": "Thin Python wrapper for the University of Waterloo Open Data API. The API is documented here: http://api.uwaterloo.ca\/"
       },
@@ -58,7 +55,6 @@
         "text": "University of Waterloo API",
         "url": "http://api.uwaterloo.ca"
       },
-      "sort_id": "38",
       "Description": {
         "text": "Official University of Waterloo API"
       },

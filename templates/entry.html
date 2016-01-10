@@ -9,12 +9,6 @@
   </div>
   {% endif %}
 
-  {% if 'Source Code' in entry %}
-  <div class="source field-value">
-    Source code: <a href="{{ entry.get("Source Code").get("url") }}">{{ entry.get("Source Code").get("text") }}</a>
-  </div>
-  {% endif %}
-
   {% if 'Author' in entry %}
   <div class="author field-value">
     Author:
@@ -51,6 +45,12 @@
   {% if 'Download' in entry %}
   <div class="source field-value">
     Download: <a href="{{ entry.get("Download").get("url") }}">{{ entry.get("Download").get("text") }}</a>
+  </div>
+  {% endif %}
+
+  {% if 'Source Code' in entry %}
+  <div class="source field-value">
+    Source code: <a href="{{ entry.get("Source Code").get("url") }}">{{ entry.get("Source Code").get("text") }}</a>
   </div>
   {% endif %}
 </li>

@@ -303,7 +303,7 @@
         "url": "https://github.com\/vikstrous\/WatTools"
       }
     },
-        {
+    {
       "Name": {
         "text": "WatBalance",
         "url": "https://github.com/xbhatnag/watbalance"
@@ -323,6 +323,19 @@
         "text": "Xyan Bhatnagar",
         "url": "http://xyanbhatnagar.xyz/"
       }
+    },
+    {
+      "Name": {
+        "text": "Grand River Transit (web app)",
+        "url": "http://grtapp.ca/stop.asp"
+      },
+      "Description": {
+        "text": "A mobile-friendly web application with tools for finding nearby stops and next buses, viewing route maps, and more! Works on most major desktop and mobile browsers."
+      },
+      "Author": {
+        "text": "Jason Li",
+        "url": "http://twitter.com\/mrjasonli"
+      }
     }
-]
+  ]
 }

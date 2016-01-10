@@ -48,7 +48,7 @@
       {% for key, value in d.items() %}
         <h2>{{ key }}</h2>
         <ul id="items-{{key}}" class="grid">
-         {% for entry in value %}
+         {% for entry in value|sort(attribute='Name.text') %}
           {% include 'entry.html' %}
          {% endfor %}
        </ul>
@@ -72,10 +72,10 @@
   ga('send', 'pageview');
 
 </script>
-  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-ui-1.10.0.custom.min.js') }}"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-ui-1.10.0.custom.min.js') }}"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   </body>
   </html>

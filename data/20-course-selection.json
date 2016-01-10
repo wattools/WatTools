@@ -133,6 +133,19 @@
       "Source Code:": {
         "text": "will be available soon"
       }
+    },
+    {
+      "Name": {
+        "text": "uWaterloo Schedule Exporter (Chrome plugin)",
+        "url": "https://chrome.google.com/webstore/detail/uwaterloo-schedule-export/epamhdpboimbcdgokgldffcdkfmbmajg"
+      },
+      "Description": {
+        "text": "Export your University of Waterloo class schedule directly from Quest."
+      },
+      "Author": {
+        "text": "Baraa Hamodi",
+        "url": "http://baraa.ca/"
+      }
     }
   ]
 }

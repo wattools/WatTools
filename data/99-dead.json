@@ -4,7 +4,6 @@
         "text": "WatTaco",
         "url": "http://wattaco.com"
       },
-      "sort_id": -1,
       "Description": {
         "text": "This tools notifies you when any of the campus restaurants are selling tacos. Why? because tacos are awesome."
       },
@@ -28,7 +27,6 @@
         "text": "UWallet",
         "url": "https://uwallet.ca\/"
       },
-      "sort_id": -1,
       "Description": {
         "text": "Android app that keep track of your WatCard balance and transaction history."
       },
@@ -49,7 +47,6 @@
         "text": "WatFood app",
         "url": "http://outoflineordering.com\/"
       },
-      "sort_id": -1,
       "Description": {
         "text": "WatFood is an iPhone app. WatFood aims to improve the food ordering experience at the University of Waterloo. View all UW food outlets, hours and any available menus right on your smartphone!"
       },
@@ -62,7 +59,6 @@
         "text": "Findit Off Campus",
         "url": "http://www.finditoffcampus.com\/"
       },
-      "sort_id": -1,
       "Description": {
         "text": "Waterloo off campus housing listings near University of Waterloo, Wilfrid Laurier University and Conestoga College"
       },
@@ -76,7 +72,6 @@
         "text": "Represent  UW",
         "url": "http://representuw.com\/"
       },
-      "sort_id": "3",
       "Description": {
         "text": "A list of Waterloo student and alumni startups on a map"
       },
@@ -98,7 +93,6 @@
         "text": "CourseAlerts",
         "url": "http://uw.coursealerts.ca\/"
       },
-      "sort_id": "7",
       "Description": {
         "text": "Get an email when a spot opens up in a class you want to take"
       }
@@ -108,7 +102,6 @@
         "text": "Ride GRT",
         "url": "http://ridegrt.com\/"
       },
-      "sort_id": "14",
       "Description": {
         "text": "Ride GRT is an unofficial transit application for Grand River Transit servicing the cities of Waterloo, Cambridge, and Kitchener. Ride GRT allows you to quickly save your most common trips and at a glance see when the next bus is leaving. If you use GRT at all, this app is for you!"
       },
@@ -122,7 +115,6 @@
         "text": "Social UW",
         "url": "http://socialuw.com\/"
       },
-      "sort_id": "15",
       "Description": {
         "text": "The site provides course specific pages for you to share notes, collaborate anonymously on assignments as well as ask for clarification. There is also a general page to share anything with anyone! Something interesting happen today? Cool event coming up? Post it on SocialUW so that the rest of campus can find out!"
       }
@@ -132,7 +124,6 @@
         "text": "Resume Compiler",
         "url": "http://www.resumecompiler.com"
       },
-      "sort_id": "24",
       "Description": {
         "text": "Resume Compiler - A free tool that lets you construct a robust HTML resume from scratch or paste from your favorite office software.\nDesigned for JobMine!"
       },
@@ -146,7 +137,6 @@
         "text": "PHP Quest Mark Checker",
         "url": "http://bn.gs\/quest-markcheck.phps"
       },
-      "sort_id": "26",
       "Description": {
         "text": "Simulates a logon session to Quest in order to check your marks."
       },
@@ -160,7 +150,6 @@
         "text": "UW Direct Connect Hub",
         "url": "http://uwdc.ca\/"
       },
-      "sort_id": "27",
       "Description": {
         "text": "Share files on the university's intranet at speeds over 10 MB\/s!"
       }
@@ -170,7 +159,6 @@
         "text": "Quick Cite",
         "url": "http://www.quickcite.it\/"
       },
-      "sort_id": "28",
       "Description": {
         "text": "Scan the barcode of a book and receive the citation in your email inbox."
       },
@@ -184,7 +172,6 @@
         "text": "UW Chat",
         "url": "http://www.uwchat.ca\/"
       },
-      "sort_id": "29",
       "Description": {
         "text": "Chat with other people in the same area on campus."
       },
@@ -198,7 +185,6 @@
         "text": "Course Select",
         "url": "http://www.uwlive.ca\/courselect\/"
       },
-      "sort_id": "31",
       "Description": {
         "text": "Courselect helps you look up courses that you might be interested in taking without having to go to several websites to get the job done.\nThere is also information on your textbooks and you can compare prices between the UW BookStore and major online stores."
       },
@@ -212,7 +198,6 @@
         "text": "Waterloo Co-op Map",
         "url": "http://apps.facebook.com\/co-op_map\/"
       },
-      "sort_id": "34",
       "Description": {
         "text": "Put your work term location on a map and find out where others are working using this Facebook app."
       },
@@ -226,7 +211,6 @@
         "text": "Bookneto",
         "url": "https://bookneto.com\/"
       },
-      "sort_id": "36",
       "Description": {
         "text": "A social platform for sharing school related documents such as past exams, notes and books."
       },
@@ -240,7 +224,6 @@
         "text": "UW Angel CLI",
         "url": "https://github.com\/phleet\/UWAngel-CLI"
       },
-      "sort_id": "37",
       "Description": {
         "text": "A command line interface to UW Angel. Can be used to download all your files."
       },
@@ -262,7 +245,6 @@
         "text": "UW Data",
         "url": "http://uwdata.ca\/"
       },
-      "sort_id": "39",
       "Description": {
         "text": "A RESTful API to the University of Waterloo's public data for course information."
       },
@@ -284,7 +266,6 @@
         "text": "UW Schedule",
         "url": "http://uwschedule.ca\/"
       },
-      "sort_id": "41",
       "Description": {
         "text": "A social class schedule application for University of Waterloo students."
       },

@@ -4,7 +4,6 @@
         "text": "Refuse2Logout",
         "url": "http://userscripts.org\/scripts\/show\/159004"
       },
-      "sort_id": -1,
       "Description": {
         "text": "A greasemonkey script that prevents uWaterloo's Desire2Learn from logging you out automatically."
       },
@@ -22,7 +21,6 @@
         "text": "d2lmtfa",
         "url": "https://chrome.google.com\/webstore\/detail\/d2lmtfa\/jmpnkijagnjciddocppeemmbjbnhjecf"
       },
-      "sort_id": -1,
       "Description": {
         "text": "Chrome extension to prevent desire2learn from logging you out when you are not looking. d2lmtfa stands for Desire To Leave Me The F*ck Alone.\nWarning: This may or may not be in a working state right now..."
       },
@@ -40,7 +38,6 @@
         "text": "desire2download",
         "url": "https://github.com\/sholiday\/desire2download"
       },
-      "sort_id": "22",
       "Description": {
         "text": "d2d is a tool to download all of the content from the University of Waterloo's new learning management system which uses Desire2Learn instead of the old Angel based UWACE."
       },

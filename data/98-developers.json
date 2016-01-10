@@ -1,11 +1,11 @@
 {"Developer-focused":[
     {
       "Name": {
-        "text": "uwaterlooapi python module",
+        "text": "uWaterloo API Python Module",
         "url": "https://pypi.python.org\/pypi\/uwaterlooapi"
       },
       "Description": {
-        "text": "A python interface for the UW API at api.uwaterloo.ca. Install using `pip install uwaterlooapi`"
+        "text": "Thin Python wrapper for the University of Waterloo Open Data API at api.uwaterloo.ca. Install using `pip install uwaterlooapi`"
       },
       "Source Code": {
         "text": "BitBucket",
@@ -27,23 +27,6 @@
       "Source Code": {
         "text": "BitBucket",
         "url": "https://bitbucket.org\/amjoconn\/watpy\/overview"
-      },
-      "Author": {
-        "text": "Albert O'Connor",
-        "url": "https://bitbucket.org\/amjoconn"
-      }
-    },
-    {
-      "Name": {
-        "text": "uwaterloo api - python",
-        "url": "https://bitbucket.org\/amjoconn\/uwaterlooapi"
-      },
-      "Description": {
-        "text": "Thin Python wrapper for the University of Waterloo Open Data API. The API is documented here: http://api.uwaterloo.ca\/"
-      },
-      "Source Code": {
-        "text": "BitBucket",
-        "url": "https://bitbucket.org\/amjoconn\/uwaterlooapi"
       },
       "Author": {
         "text": "Albert O'Connor",

@@ -302,6 +302,27 @@
         "text": "github",
         "url": "https://github.com\/vikstrous\/WatTools"
       }
+    },
+        {
+      "Name": {
+        "text": "WatBalance",
+        "url": "https://github.com/xbhatnag/watbalance"
+      },
+      "Description": {
+        "text": "Android app that keep track of your WatCard balance and transaction history. Replacement for UWallet. More features. Better design."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/xbhatnag/watbalance"
+      },
+      "Download": {
+        "text": "APK",
+        "url": "http://1drv.ms/1J19FzS"
+      },
+      "Author": {
+        "text": "Xyan Bhatnagar",
+        "url": "http://xyanbhatnagar.xyz/"
+      }
     }
 ]
 }

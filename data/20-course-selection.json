@@ -138,6 +138,23 @@
         "text": "Baraa Hamodi",
         "url": "http://baraa.ca/"
       }
+    },
+    {
+      "Name": {
+        "text": "Quest Schedule Exporter (JS Webapp)",
+        "url": "http://www.questscheduleexporter.xyz"
+      },
+      "Description": {
+        "text": "Helps export your class schedule so you can use it with Google Calendar, a mobile calendar application or anything else that uses the iCalendar format."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/Trinovantes/Quest-Schedule-Exporter"
+      },
+      "Author": {
+        "text": "Stephen Li",
+        "url": "https://www.stephenli.ca/"
+      },
     }
   ]
 }

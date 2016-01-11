@@ -1,4 +1,4 @@
-<li class="item">
+<div class="col-sm-4 col-md-4 col-lg-3">
   <h3 class="name field-value">
     <a href="{{ entry.get("Name").get("url") }}">{{ entry.get("Name").get("text") }}</a>
   </h3>
@@ -43,7 +43,7 @@
   {% endif %}
 
   {% if 'Download' in entry %}
-  <div class="source field-value">
+  <div class="download field-value">
     Download: <a href="{{ entry.get("Download").get("url") }}">{{ entry.get("Download").get("text") }}</a>
   </div>
   {% endif %}
@@ -53,4 +53,10 @@
     Source code: <a href="{{ entry.get("Source Code").get("url") }}">{{ entry.get("Source Code").get("text") }}</a>
   </div>
   {% endif %}
-</li>
+</div>
+{% if entry_count is divisibleby 3 %}
+<div class="clearfix visible-sm-block visible-md-block"></div>
+{% endif %}
+{% if entry_count is divisibleby 4 %}
+<div class="clearfix visible-lg-block"></div>
+{% endif %}

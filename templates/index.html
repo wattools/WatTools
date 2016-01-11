@@ -9,11 +9,22 @@
   <meta property="og:site_name" content="Waterloo Tools" />
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Waterloo Tools - A collection of tools for University of Waterloo students</title>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-responsive.min.css') }}" />
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+  <style>
+    .title {
+      font-family: "Open Sans", sans-serif;
+      color: #2c5700;
+      font-size: 3em; }
 
+    .social {
+      margin-top: 10px;
+      margin-left: 50px;
+      float: left; }
+      .social .social_item {
+        float: left;
+        margin-right: 10px; }
+  </style>
   <!-- I HATE IE -->
   <!--[if lte IE 7.0]>
   <style type="text/css">
@@ -23,10 +34,11 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class='title'><a href="/">WatTools</a></div>
-    <div class='header-description'>A collection of tools for University of Waterloo students, by University of Waterloo students.</div>
-    <div class='header-description'>This is a wiki. <a href="https://github.com/kyl191/WatTools/issues">Submit your own revisions of the list!</a></div>
+<div class="container">
+  <div class="header pull-left">
+    <div class='title'>WatTools</div>
+    <p class='text-muted'>A collection of tools for University of Waterloo students, by University of Waterloo students.</p>
+    <p class='text-muted'>This is a wiki. <a href="https://github.com/kyl191/WatTools/issues">Submit your own revisions of the list!</a></p>
   </div>
   <div class="social">
     <div class="social_item">
@@ -43,15 +55,16 @@
   <div class="clearfix"></div>
 
   <p id="global-thanks" class="text-success"></p>
-  <div class="app">
+  <div>
     {% for d in dicts %}
       {% for key, value in d.items() %}
         <h2>{{ key }}</h2>
-        <ul id="items-{{key}}" class="grid">
+        <div id="items-{{key}}" class="row">
          {% for entry in value|sort(attribute='Name.text') %}
+          {% set entry_count = loop.index %}
           {% include 'entry.html' %}
          {% endfor %}
-       </ul>
+       </div>
        <hr>
        {% endfor %}
     {% endfor %}
@@ -74,8 +87,7 @@
 </script>
 <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-ui-1.10.0.custom.min.js') }}"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>

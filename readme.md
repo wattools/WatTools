@@ -1,6 +1,6 @@
 # WatTools
 
-[![Build Status](https://travis-ci.org/kyl191/WatTools.svg?branch=master)](https://travis-ci.org/kyl191/WatTools)
+[![Build Status](https://travis-ci.org/wattools/WatTools.svg?branch=master)](https://travis-ci.org/wattools/WatTools)
 
 Runs with Python 2.6/2.7, 3.3+
 

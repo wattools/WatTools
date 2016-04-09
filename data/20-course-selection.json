@@ -152,6 +152,22 @@
         "text": "Stephen Li",
         "url": "https://www.stephenli.ca/"
       }
+    },
+    {
+      "Name": {
+        "text": "MyClass+",
+        "url": "https://play.google.com/store/apps/details?id=com.YC2010.MyClass"
+      },
+      "Description": {
+        "text": "A uwaterloo course based app. Add your courses, view your calendar, switch to whichever section you want and be ready for all your exams and customized reminder."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/IYCI/MyClass"
+      },
+      "Author": {
+        "text": "Jason Feng"
+      }
     }
   ]
 }

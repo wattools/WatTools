@@ -251,6 +251,22 @@
         "text": "Xyan Bhatnagar",
         "url": "http://xyanbhatnagar.xyz/"
       }
+    },
+    {
+      "Name": {
+        "text": "UW Parking",
+        "url": "https://play.google.com/store/apps/details?id=com.YC2010.UWparking"
+      },
+      "Description": {
+        "text": "A simple android app for UWaterloo students to found out about current parking space of each parking lot among the campus"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/IYCI/UW_Parking"
+      },
+      "Author": {
+        "text": "Jason Feng"
+      }
     }
   ]
 }

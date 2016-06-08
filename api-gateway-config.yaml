@@ -1,0 +1,94 @@
+---
+swagger: "2.0"
+schemes:
+- "https"
+paths:
+  /:
+    get:
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+          headers:
+            Content-Length:
+              type: "string"
+            Timestamp:
+              type: "string"
+            Content-Type:
+              type: "string"
+      x-amazon-apigateway-integration:
+        credentials: "arn:aws:iam:::role/_s3_reader"
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Content-Type: "integration.response.header.Content-Type"
+              method.response.header.Content-Length: "integration.response.header.Content-Length"
+              method.response.header.Timestamp: "integration.response.header.Date"
+        uri: "arn:aws:apigateway:us-west-2:s3:path/bucket/index.html"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "GET"
+        type: "aws"
+  /feedback:
+    post:
+      consumes:
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+        requestTemplates:
+          application/x-www-form-urlencoded: "{ \"body\": $input.json(\"$\") }"
+        uri: "arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2::function:email/invocations"
+        passthroughBehavior: "when_no_templates"
+        httpMethod: "POST"
+        type: "aws"
+  /{item}:
+    get:
+      produces:
+      - "application/json"
+      parameters:
+      - name: "item"
+        in: "path"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+          headers:
+            Content-Length:
+              type: "string"
+            Timestamp:
+              type: "string"
+            Content-Type:
+              type: "string"
+      x-amazon-apigateway-integration:
+        credentials: "arn:aws:iam:::role/_s3_reader"
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Content-Type: "integration.response.header.Content-Type"
+              method.response.header.Content-Length: "integration.response.header.Content-Length"
+              method.response.header.Timestamp: "integration.response.header.Date"
+        uri: "arn:aws:apigateway:us-west-2:s3:path/bucket/{item}"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "GET"
+        requestParameters:
+          integration.request.path.item: "method.request.path.item"
+        type: "aws"
+definitions:
+  Empty:
+    type: "object"

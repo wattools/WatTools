@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>WatTools - Feedback</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Feedback</h2>
+    <p>Edits/New tools? Submit them here!</p>
+    <form class="form-horizontal" action="feedback" method="POST">
+      <p>Let me know who you are, so I can follow up if necessary!</p>
+      <div class="form-group">
+        <label for="name" class="col-sm-1 control-label">Name</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email" class="col-sm-1 control-label">Email</label>
+        <div class="col-sm-4">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message" class="col-sm-1 control-label">Message</label>
+        <div class="col-sm-4">
+          <textarea class="form-control" rows="5" id="message" name="message" required placeholder="Anything goes..."></textarea>
+        </div>
+      </div>
+      <input type="submit" id="submit" value="Send Feedback!"/>
+    </form>
+  </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

@@ -17,3 +17,10 @@ notifications:
 install: "pip install -r requirements.txt"
 # command to run tests
 script: "python run.py build"
+
+addons:
+  artifacts:
+    s3_region: "us-west-2"
+    debug: true
+    paths:
+      - build/index.html

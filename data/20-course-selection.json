@@ -168,6 +168,22 @@
       "Author": {
         "text": "Jason Feng"
       }
+    },
+    {
+      "Name": {
+        "text": "ClassM8",
+        "url": "http://andreiserban.me/classm8/"
+      },
+      "Description": {
+        "text": "ClassM8 allows you to import your schedule, and search around for other courses so you can mess around with courses in your timetable in a very easy way. When you've finally made your perfect timetable, you can go to quest and swap your courses with the ones you chose on ClassM8. ClassM8 doesn't actually do any course swapping for you, it just provides an easy to use interface so you don't have to have 3 tabs open anymore."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/andofcourse/ClassM8"
+      },
+      "Author": {
+        "text": "Andrei Serban"
+      }
     }
   ]
 }

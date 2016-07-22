@@ -1,26 +1,35 @@
 language: python
+cache: pip
 python:
-  - "2.6"
-  - "2.7"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-  - "3.5-dev" # 3.5 development branch
-  - "nightly" # currently points to 3.6-dev
+- '2.6'
+- '2.7'
+- '3.3'
+- '3.4'
+- '3.5'
+- 3.5-dev
+- nightly
 git:
   depth: 3
 notifications:
   email:
     on_success: never
-
-# command to install dependencies
-install: "pip install -r requirements.txt"
-# command to run tests
-script: "python run.py build"
-
+install: pip install -r requirements.txt
+script: python run.py build
 addons:
   artifacts:
-    s3_region: "us-west-2"
+    s3_region: us-west-2
     debug: true
     paths:
-      - build/index.html
+    - build/index.html
+deploy:
+  provider: s3
+  access_key_id: AKIAJOM37NYVK657GMMQ
+  secret_access_key:
+    secure: lwNEOOyAOp3J1gCF/rg3HLwLoUWOfLiHjWKyz8lG4qjLoh4N7uL3f/QV4iuKwr6vcT7+RVwYiSFpeWVWD9FR+eYojgApQNu/y7jfbYWGUPUYPISVMbW7qOJEHQUR4rblziJR9mIULGp7PB6kNA6P6vf4rJmh6iAmCPyPEzfrVxQ2v2j915eXVa1eRYyuB0ugJoLXTYKokYgoSNl4+0TT2tDxqzNwthQOnmMZlIE3OnbmYkK1OFRgvy+iMvkBJ+pxYDqWYbuCuhax0lEawMENrfmvjrI0LyYEJHLxdxSqMRFNyva7kBxRVyBbF524Ud7jMCm5PQE0ZsGVki5lXdu0+r+dP/SrWNEMkEVt85ZqRI09rXwfCx/wlZsqzFGD46hL0FJ6PHjSZxWXXy/anHE3YR8b2GrGa4AIzTf0k3GIre7xgX9TKyYGZM2/34Guv7ytqO6ErN9vQygzyAKFCj3TEcbEB6bg/hyEsiXaH2uW8WSbLqUZxD+6a+ldGlTBEKUZGoHDH5YQFyelKpzN9qSrZ5YlNCGmdXylrTs54voQ9jfQQvQZNhpxZkhIFYCdcn+0yOjUnR5I3XJl6uqEj1BorKw0S/EM+H0HOjWjkYqOBkeWH23t8r+px4+zCSVTb8T5xlcqbvDU7kZCEFW7ixUjP3MRif8zjMOkFtl3tQ16BQI=
+  bucket: beta-uwaterloo-xyz
+  local-dir: build/
+  acl: public_read
+  region: us-west-2
+  on:
+    branch: master
+    python: 3.5

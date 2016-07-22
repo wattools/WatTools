@@ -1,5 +1,5 @@
 <div class="col-sm-4 col-md-4 col-lg-3">
-  <h3 class="name field-value">
+  <h3 class="name field-value" id="{{ entry.get("Name").get("text")|lower|replace(" ", "-") }}">
     <a href="{{ entry.get("Name").get("url") }}">{{ entry.get("Name").get("text") }}</a>
   </h3>
 

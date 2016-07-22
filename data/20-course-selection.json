@@ -175,7 +175,7 @@
         "url": "https://chrome.google.com/webstore/detail/watcal/piajnoiedgkdpnancbojkeeaddpahofd"
       },
       "Description": {
-        "text": "A chrome extension that allows you to export your University of Waterloo class schedule to your calendar. Unlike other extensions, WatCal exports your class schedule through the course enrollment results page which will fetch the class data from UWFlow."
+        "text": "A chrome extension that allows you to export your University of Waterloo class schedule to your calendar. Unlike other extensions, WatCal exports your class schedule through the course enrollment results page (instead of the class schedule page) by fetching the class schedule data from UWaterloo's Open Data API."
       },
       "Source Code": {
         "text": "Github",

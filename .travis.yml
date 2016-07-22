@@ -30,6 +30,8 @@ deploy:
   local-dir: build/
   acl: public_read
   region: us-west-2
+  debug: true
+  skip_cleanup: true
   on:
-    branch: master
+    branch: travis-ci
     python: 3.5

@@ -18,13 +18,14 @@ script: python run.py build
 addons:
   artifacts:
     s3_region: us-west-2
+    bucket: beta-uwaterloo-xyz
     paths:
     - build/index.html
 deploy:
   provider: s3
-  access_key_id: AKIAJOM37NYVK657GMMQ
+  access_key_id: AKIAIAIF7FGVTFBBXWXA
   secret_access_key:
-    secure: lwNEOOyAOp3J1gCF/rg3HLwLoUWOfLiHjWKyz8lG4qjLoh4N7uL3f/QV4iuKwr6vcT7+RVwYiSFpeWVWD9FR+eYojgApQNu/y7jfbYWGUPUYPISVMbW7qOJEHQUR4rblziJR9mIULGp7PB6kNA6P6vf4rJmh6iAmCPyPEzfrVxQ2v2j915eXVa1eRYyuB0ugJoLXTYKokYgoSNl4+0TT2tDxqzNwthQOnmMZlIE3OnbmYkK1OFRgvy+iMvkBJ+pxYDqWYbuCuhax0lEawMENrfmvjrI0LyYEJHLxdxSqMRFNyva7kBxRVyBbF524Ud7jMCm5PQE0ZsGVki5lXdu0+r+dP/SrWNEMkEVt85ZqRI09rXwfCx/wlZsqzFGD46hL0FJ6PHjSZxWXXy/anHE3YR8b2GrGa4AIzTf0k3GIre7xgX9TKyYGZM2/34Guv7ytqO6ErN9vQygzyAKFCj3TEcbEB6bg/hyEsiXaH2uW8WSbLqUZxD+6a+ldGlTBEKUZGoHDH5YQFyelKpzN9qSrZ5YlNCGmdXylrTs54voQ9jfQQvQZNhpxZkhIFYCdcn+0yOjUnR5I3XJl6uqEj1BorKw0S/EM+H0HOjWjkYqOBkeWH23t8r+px4+zCSVTb8T5xlcqbvDU7kZCEFW7ixUjP3MRif8zjMOkFtl3tQ16BQI=
+    secure: LoFElR72toD+mtbBmsX8kYwqAoxsEMCMGJ2tNpQqab9E0fco4qJZVQCddBPnFkXgK3wro4snRCBj9cLtaXjt7BENmEJ5Qo3jznfvgZ6TiVm9mAGrMyZjy11GjEF3sCv4n3fyO+CUCSv/jaA/dkIRCquTy6c3U+EKevxxjC0WybCo/Fj/0Xw3kwePlvilj75dbC9UdrdIQknKZB1EPairmVxMJHRIi2sdDhM1KUi83H+4PYEQXoeW2iF/F39l+kPlROdOCdtIYfFB/xXRbiQWxEunYTdprKFVP92eH7TzucZAhIl9Efd8IDVfAte/irQ1Cb2+ACeqFiH/c78II8PCQghxuHR0gpq6WYyd3o4rCeOjqqYVWQ/kmQTl2qmnqOxAk7GKcapYEvGHtsG6C2TxwJT4WgfxSjx9wkpVBVRF+r4tmjG7EoI21XzMadt54IstJc6bXc1KgcEtDjtVOB1ZJRctu+vjj2/bY0sfIj2aUJOHnb2A2gQOOYI1GozqZoYEIEraofK87Zr6Kafqt3RPPV4OZfPBKiziD/1vci+OJP8ssoVMIMk47PPjVZnlzpb22e7pgDWJi2hlR5jgnDiZ7euYGEaHQmac//+Q/qzAUEwBAYT3luZPRGzi/5TPFnzfnD8mQZxVUMH/p5jqWSNebMutlLUGlAVM7TgymnIbuyg=
   bucket: uwaterloo-xyz
   local-dir: build/
   acl: public_read

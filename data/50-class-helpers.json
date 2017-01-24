@@ -127,6 +127,22 @@
         "text": "Casey Banner",
         "url": "http://caseybanner.ca\/"
       }
+    },
+    {
+      "Name": {
+        "text": "uC++ Sublime Highlighting",
+        "url": "https://github.com/poduncan/ucpp-subl2-syntax"
+      },
+      "Description": {
+        "text": "An extension for Sublime Text that highlights uC++, the language used in CS343."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/poduncan/ucpp-subl2-syntax"
+      },
+      "Author": {
+        "text": "Philip Duncan"
+      }
     }
   ]
 }

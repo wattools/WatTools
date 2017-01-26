@@ -16,6 +16,19 @@
       font-family: "Open Sans", sans-serif;
       color: #2c5700;
       font-size: 3em; }
+    .field-value {
+      font-size: 0.9rem;
+    }
+    h2 {
+      margin-top: .75rem;
+      font-weight: 400;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      margin-bottom: 0.1rem;
+    }
   </style>
   <!-- I HATE IE -->
   <!--[if lte IE 7.0]>
@@ -26,16 +39,15 @@
 </head>
 
 <body>
+<a href="https://github.com/wattools/WatTools"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 <div class="container">
   <div class="header pull-left">
     <div class='title'>WatTools</div>
     <p class='text-muted'>A collection of tools for University of Waterloo students, by University of Waterloo students.</p>
     <p class='text-muted'>This is a wiki. <a href="message.html" target="_blank">Submit your own revisions of the list!</a></p>
   </div>
-  <a href="https://github.com/wattools/WatTools"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
   <div class="clearfix"></div>
 
-  <p id="global-thanks" class="text-success"></p>
   <div>
     {% for d in dicts %}
       {% for key, value in d.items() %}
@@ -51,9 +63,10 @@
     {% endfor %}
   </div>
 
-  <div><p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
-  <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
-  <em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em>
+  <div>
+    <p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
+    <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
+    <p><em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em></p>
   </div>
 </div>
 

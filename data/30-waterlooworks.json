@@ -1,0 +1,48 @@
+{"WaterlooWorks": [
+    {
+      "Name": {
+        "text": "UW Info Session (iOS app)",
+        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
+      },
+      "Description": {
+        "text": "UWaterloo Info Session is an unofficial iOS app used by students at University of Waterloo to query updated employer information sessions. Never look up the info session calendar again!"
+      },
+      "Author": {
+        "text": "Honghao Zhang",
+        "url": "http://honghaoz.com\/"
+      },
+      "Download": {
+        "text": "App Store",
+        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
+      }
+    },
+    {
+      "Name": {
+        "text": "Rate My Co-op Job",
+        "url": "http://www.ratemycoopjob.com\/"
+      },
+      "Description": {
+        "text": " With this site you can see what other students think of their past co-op experiences and use that info to find the best position for you. At the end of the day we just want to help you find the most awesome co-op job ever!"
+      },
+      "Author": {
+        "text": "Rate My Co-op Job Team"
+      }
+    },
+    {
+      "Name": {
+        "text": "Make WaterlooWorks Great Again",
+        "url": "https://chrome.google.com/webstore/detail/make-waterlooworks-great/mlekdinlcaggpokncinbmomaplhbjpmb"
+      },
+      "Description": {
+        "text": "Enhances the WaterlooWorks UX"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/gurpreetg/Make-WaterlooWorks-Great-Again"
+      },
+      "Authors": {
+        "text": "Gurpreet Gill, Peyman Gardideh"
+      }
+    }
+  ]
+}

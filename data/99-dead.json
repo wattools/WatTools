@@ -1,6 +1,77 @@
 {"Dead": [
     {
       "Name": {
+        "text": "OMG UW",
+        "url": "http://www.omguw.com\/"
+      },
+      "Description": {
+        "text": "Have one of those moments you've got to share? Got a secret you need to get off your chest? Hear something on campus so stupid it needs to be on the internet?\nThese are OMG moments.\nOMG UW is a blog dedicated to sharing these precious moments at the University of Waterloo. Inspired by FML, grouphug, PostSecret, Overheard at Western and more, this is the place to share your OMG moments easily and anonymously.\nHave fun."
+      }
+    },
+    {
+      "Name": {
+        "text": "OMGUW Reader",
+        "url": "https://play.google.com\/store\/apps\/details?id=com.romantymchyk.omguwreader"
+      },
+      "Description": {
+        "text": "The OMGUW Reader Android app is an easy way to browse University of Waterloo's favourite blog."
+      },
+      "Author": {
+        "text": "Roman Tymchyk"
+      }
+    },
+    {
+      "Name": {
+        "text": "Course Calendar",
+        "url": "http://uwcourseplanner.com\/calendar\/"
+      },
+      "Description": {
+        "text": "An easy to navigate calendar of course offerings with links to youtube videos, Wikipedia articles on course topics, and interactive prerequisite diagrams"
+      },
+      "Author": {
+        "text": "Yuguang Zhang",
+        "url": "http://yuguangzhang.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatWhenWhere",
+        "url": "http://watwhenwhere.ca"
+      },
+      "Description": {
+        "text": "A web app that allows students to find free times to hang out with friends."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/nathan4/watwhenwhere"
+      },
+      "Authors": {
+        "text": "Nathaniel Woodthorpe, Edward Lu, Sarth Frey, Shakeel Rao"
+      }
+    },
+    {
+      "Name": {
+        "text": "Course Qualifier",
+        "url": "http://coursequalifier.com\/"
+      },
+      "Description": {
+        "text": "The Course Qualifier helps you generate all possible course timetables without time conflicts. You can choose a path that allows you to sleep in and make the most efficient use of your time."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cosbynator\/Course-Qualifier"
+      },
+      "Author": {
+        "text": "Thomas Dimson",
+        "url": "http://www.thomasdimson.com\/"
+      },
+      "Source Code:": {
+        "text": "github",
+        "url": "https://github.com\/cosbynator\/Course-Qualifier"
+      }
+    },
+    {
+      "Name": {
         "text": "WatTaco",
         "url": "http://wattaco.com"
       },

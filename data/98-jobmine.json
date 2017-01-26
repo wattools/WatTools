@@ -1,0 +1,70 @@
+{"Jobmine": [
+  {
+    "Name": {
+      "text": "JobMine Buddy",
+      "url": "https://chrome.google.com\/webstore\/detail\/jobmine-buddy\/jimpkgjepjjmbmkeocklkcmjnelcnlci"
+    },
+    "Description": {
+      "text": "Chrome plugin that highlights newly posted jobs and lets you create and view notes about each job posting right in JobMine!"
+    },
+    "Author": {
+      "text": "Sahil Saini"
+    }
+  },
+  {
+    "Name": {
+      "text": "Jobmine Mobile",
+      "url": "https://play.google.com\/store\/apps\/details?id=com.jobmine"
+    },
+    "Description": {
+      "text": "It's the University of Waterloo's Jobmine job board, on your phone\/tablet! Now, you can view your applications and interviews on the go, with notifications for when you finally get that interview!"
+    },
+    "Source Code": {
+      "text": "github",
+      "url": "https://github.com\/cfayoux\/Jobmine-Android"
+    },
+    "Author": {
+      "text": "Tony Du"
+    }
+  },
+  {
+    "Name": {
+      "text": "Understanding Jobmine job states",
+      "url": "http://www.reddit.com\/r\/uwaterloo\/comments\/192m22\/for_all_you_jobmine_newbies_heres_a_list_of\/"
+    },
+    "Author": {
+      "text": "Pango56",
+      "url": "http://www.reddit.com\/user\/Pango56"
+    }
+  },
+  {
+    "Name": {
+      "text": "JobMine Interview Notifier",
+      "url": "http://soarescode.com\/jobmine_interview_notifier\/"
+    },
+    "Description": {
+      "text": "Allows you to set up automated interview notifications."
+    },
+    "Author": {
+      "text": "Mike Soares",
+      "url": "http://www.mikesoares.com\/"
+    }
+  },
+  {
+    "Name": {
+      "text": "Jobmine Plus",
+      "url": "http://userscripts.org\/scripts\/show\/80771"
+    },
+    "Description": {
+      "text": "Makes JobMine faster, easier to use, and less aesthetically painful."
+    },
+    "Source Code": {
+      "text": "userscripts.org",
+      "url": "http://userscripts.org\/scripts\/review\/80771"
+    },
+    "Author": {
+      "text": "Matthew Ng",
+      "url": "http://userscripts.org\/users\/matthewng"
+    }
+  }
+]}

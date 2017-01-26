@@ -65,45 +65,11 @@
     },
     {
       "Name": {
-        "text": "Course Calendar",
-        "url": "http://uwcourseplanner.com\/calendar\/"
-      },
-      "Description": {
-        "text": "An easy to navigate calendar of course offerings with links to youtube videos, Wikipedia articles on course topics, and interactive prerequisite diagrams"
-      },
-      "Author": {
-        "text": "Yuguang Zhang",
-        "url": "http://yuguangzhang.com\/"
-      }
-    },
-    {
-      "Name": {
         "text": "Bird Courses",
         "url": "http://birdcourses.com\/university.php?university=1"
       },
       "Description": {
         "text": "Looking for easy marks?"
-      }
-    },
-    {
-      "Name": {
-        "text": "Course Qualifier",
-        "url": "http://coursequalifier.com\/"
-      },
-      "Description": {
-        "text": "The Course Qualifier helps you generate all possible course timetables without time conflicts. You can choose a path that allows you to sleep in and make the most efficient use of your time."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/cosbynator\/Course-Qualifier"
-      },
-      "Author": {
-        "text": "Thomas Dimson",
-        "url": "http://www.thomasdimson.com\/"
-      },
-      "Source Code:": {
-        "text": "github",
-        "url": "https://github.com\/cosbynator\/Course-Qualifier"
       }
     },
     {

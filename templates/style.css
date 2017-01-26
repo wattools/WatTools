@@ -1,0 +1,26 @@
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: #2c5700;
+  font-size: 3em; }
+.field-value {
+  font-size: 0.9rem;
+}
+.tool-block {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-top: .75rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  margin-bottom: 0.1rem;
+}
+.gh-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}

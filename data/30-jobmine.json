@@ -99,6 +99,22 @@
         "text": "userscripts.org",
         "url": "http://userscripts.org\/scripts\/review\/80771"
       }
+    },
+    {
+      "Name": {
+        "text": "Make WaterlooWorks Great Again",
+        "url": "https://chrome.google.com/webstore/detail/make-waterlooworks-great/mlekdinlcaggpokncinbmomaplhbjpmb"
+      },
+      "Description": {
+        "text": "Enhances the WaterlooWorks UX"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/gurpreetg/Make-WaterlooWorks-Great-Again"
+      },
+      "Authors": {
+        "text": "Gurpreet Gill, Peyman Gardideh"
+      }
     }
   ]
 }

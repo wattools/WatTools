@@ -11,7 +11,7 @@ python:
 node_js:
   - "node"
 git:
-  depth: 1
+  depth: 3
 notifications:
   email:
     on_success: never
@@ -20,7 +20,7 @@ install:
   - npm install -g firebase-tools
 script: python run.py build
 after_success:
-  - echo "Hi!"
+  - env
 addons:
   artifacts:
     s3_region: us-west-2

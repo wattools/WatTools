@@ -3,5 +3,4 @@ build/
 include/
 lib/
 local/
-.firebaserc
 firebase-debug.log

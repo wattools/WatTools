@@ -10,18 +10,19 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    dicts = []
+    dicts = {}
     files = sorted(glob.glob("data/*.json"))
     for fname in files:
+      fnum = int(os.path.basename(fname).split("-")[0])
       with open(fname) as f:
-        dicts.append(json.loads(f.read()))
+        dicts[fnum] = json.loads(f.read())
     return html_minify(render_template("index.html", dicts=dicts))
     # return render_template("index.html", dicts=dicts)
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
-        files = ["ga.js", "style.css"]
+        files = ["ga.js", "style.css", "message.html"]
         for f in files:
             shutil.copy(os.path.join("templates", f), "build")
         with open("build/favicon.ico", "a") as f:

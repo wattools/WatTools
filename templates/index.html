@@ -31,10 +31,10 @@
   <div class="clearfix"></div>
 
   <div>
-    {% for d in dicts %}
-      {% for key, value in d.items() %}
+    {% for filenumber, content in dicts|dictsort %}
+      {% for key, value in content.items() %}
         <h2>{{ key }}</h2>
-        <div id="items-{{key}}" class="row">
+        <div id="items-{{key}}" class="row {{ "collapsed" if filenumber > 89 }}">
          {% for entry in value|sort(attribute='Name.text') %}
           {% set entry_count = loop.index %}
           {% include 'entry.html' %}

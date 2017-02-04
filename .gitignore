@@ -1,1 +1,6 @@
+bin/
 build/
+include/
+lib/
+local/
+firebase-debug.log

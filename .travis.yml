@@ -1,36 +1,32 @@
 language: python
-cache: pip
+cache:
+  - pip
+  - npm
 python:
 - '2.6'
 - '2.7'
 - '3.3'
 - '3.4'
 - '3.5'
-- 3.5-dev
+- '3.6'
 - nightly
+node_js:
+  - "node"
 git:
   depth: 3
 notifications:
   email:
     on_success: never
-install: pip install -r requirements.txt
+install:
+  - pip install -r requirements.txt
+  - npm install -g firebase-tools
 script: python run.py build
+after_success:
+  - test ${TRAVIS_PYTHON_VERSION} = "3.6" && firebase deploy --token ${FIREBASE_TOKEN}
+
 addons:
   artifacts:
     s3_region: us-west-2
     bucket: beta-uwaterloo-xyz
     paths:
     - build/index.html
-deploy:
-  provider: s3
-  access_key_id: AKIAIAIF7FGVTFBBXWXA
-  secret_access_key:
-    secure: LoFElR72toD+mtbBmsX8kYwqAoxsEMCMGJ2tNpQqab9E0fco4qJZVQCddBPnFkXgK3wro4snRCBj9cLtaXjt7BENmEJ5Qo3jznfvgZ6TiVm9mAGrMyZjy11GjEF3sCv4n3fyO+CUCSv/jaA/dkIRCquTy6c3U+EKevxxjC0WybCo/Fj/0Xw3kwePlvilj75dbC9UdrdIQknKZB1EPairmVxMJHRIi2sdDhM1KUi83H+4PYEQXoeW2iF/F39l+kPlROdOCdtIYfFB/xXRbiQWxEunYTdprKFVP92eH7TzucZAhIl9Efd8IDVfAte/irQ1Cb2+ACeqFiH/c78II8PCQghxuHR0gpq6WYyd3o4rCeOjqqYVWQ/kmQTl2qmnqOxAk7GKcapYEvGHtsG6C2TxwJT4WgfxSjx9wkpVBVRF+r4tmjG7EoI21XzMadt54IstJc6bXc1KgcEtDjtVOB1ZJRctu+vjj2/bY0sfIj2aUJOHnb2A2gQOOYI1GozqZoYEIEraofK87Zr6Kafqt3RPPV4OZfPBKiziD/1vci+OJP8ssoVMIMk47PPjVZnlzpb22e7pgDWJi2hlR5jgnDiZ7euYGEaHQmac//+Q/qzAUEwBAYT3luZPRGzi/5TPFnzfnD8mQZxVUMH/p5jqWSNebMutlLUGlAVM7TgymnIbuyg=
-  bucket: uwaterloo-xyz
-  local-dir: build/
-  acl: public_read
-  region: us-west-2
-  skip_cleanup: true
-  on:
-    branch: master
-    python: 3.5

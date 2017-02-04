@@ -9,14 +9,9 @@
   <meta property="og:site_name" content="Waterloo Tools" />
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Waterloo Tools - A collection of tools for University of Waterloo students</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-  <style>
-    .title {
-      font-family: "Open Sans", sans-serif;
-      color: #2c5700;
-      font-size: 3em; }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans' />
+  <link rel='stylesheet' type='text/css' href='style.css' />
   <!-- I HATE IE -->
   <!--[if lte IE 7.0]>
   <style type="text/css">
@@ -26,21 +21,20 @@
 </head>
 
 <body>
+<a href="https://github.com/wattools/WatTools"><img class="gh-banner"  src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 <div class="container">
   <div class="header pull-left">
     <div class='title'>WatTools</div>
     <p class='text-muted'>A collection of tools for University of Waterloo students, by University of Waterloo students.</p>
     <p class='text-muted'>This is a wiki. <a href="message.html" target="_blank">Submit your own revisions of the list!</a></p>
   </div>
-  <a href="https://github.com/wattools/WatTools"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
   <div class="clearfix"></div>
 
-  <p id="global-thanks" class="text-success"></p>
   <div>
-    {% for d in dicts %}
-      {% for key, value in d.items() %}
+    {% for filenumber, content in dicts|dictsort %}
+      {% for key, value in content.items() %}
         <h2>{{ key }}</h2>
-        <div id="items-{{key}}" class="row">
+        <div id="items-{{key}}" class="row {{ "collapsed" if filenumber > 89 }}">
          {% for entry in value|sort(attribute='Name.text') %}
           {% set entry_count = loop.index %}
           {% include 'entry.html' %}
@@ -51,23 +45,16 @@
     {% endfor %}
   </div>
 
-  <div><p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
-  <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
-  <em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em>
+  <div>
+    <p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
+    <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
+    <p><em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em></p>
   </div>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-72240514-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </div>
+
+<script src="ga.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
+
 </body>
 </html>

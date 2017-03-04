@@ -23,10 +23,3 @@ install:
 script: python run.py build
 after_success:
   - test ${TRAVIS_PYTHON_VERSION} = "3.6" && test ${TRAVIS_BRANCH} = "master" && test ${TRAVIS_PULL_REQUEST} = "false" && firebase deploy --token ${FIREBASE_TOKEN}
-
-addons:
-  artifacts:
-    s3_region: us-west-2
-    bucket: beta-uwaterloo-xyz
-    paths:
-    - build/index.html

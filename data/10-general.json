@@ -166,6 +166,18 @@
       "Author": {
         "text": "Jason Feng"
       }
+    },
+    {
+      "Name": {
+        "text": "Leara",
+        "url": "https://leara.app.link/DCrHdiCcrD"
+      },
+      "Description": {
+        "text": "A mobile app that gives students personalized practice quizzes for all their courses"
+      },
+      "Author": {
+        "text": "Deon Nicholas, Volodymyr Lyubinets"
+      }
     }
   ]
 }

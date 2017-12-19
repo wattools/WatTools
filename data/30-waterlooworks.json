@@ -43,6 +43,18 @@
       "Authors": {
         "text": "Gurpreet Gill, Peyman Gardideh"
       }
+    },
+    {
+      "Name": {
+        "text": "WaterlooWorks Azure",
+        "url": "https://chrome.google.com/webstore/detail/waterlooworks-azure/peeaakkcmdoeljddgdkcailflcballmm"
+      },
+      "Description": {
+        "text": "Azure is the best extension to enhance your experience of WaterlooWorks."
+      },
+      "Authors": {
+        "text": "Zijian Shao"
+      }
     }
   ]
 }

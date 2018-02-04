@@ -30,18 +30,18 @@
     },
     {
       "Name": {
-        "text": "Make WaterlooWorks Great Again",
-        "url": "https://chrome.google.com/webstore/detail/make-waterlooworks-great/mlekdinlcaggpokncinbmomaplhbjpmb"
+        "text": "WaterlooWorks Now",
+        "url": "https://chrome.google.com/webstore/detail/waterlooworks-now/mlekdinlcaggpokncinbmomaplhbjpmb"
       },
       "Description": {
-        "text": "Enhances the WaterlooWorks UX"
+        "text": "Adds disruptive and innovative features to WaterlooWorks, improving its UI/UX."
       },
       "Source Code": {
         "text": "Github",
-        "url": "https://github.com/gurpreetg/Make-WaterlooWorks-Great-Again"
+        "url": "https://github.com/gurpreetg/waterlooworks-now"
       },
       "Authors": {
-        "text": "Gurpreet Gill, Peyman Gardideh"
+        "text": "Gurpreet Gill, Peyman Gardideh, Neil Lohana"
       }
     },
     {

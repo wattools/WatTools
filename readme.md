@@ -1,8 +1,6 @@
 # WatTools
 
-[![Build Status](https://travis-ci.org/wattools/WatTools.svg?branch=master)](https://travis-ci.org/wattools/WatTools)
-
-Runs with Python 2.7, 3.4+
+Runs with Python 2.7, 3.4+, only tested on Python 3.6
 
 Debug with `python run.py`
 

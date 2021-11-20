@@ -1,6 +1,6 @@
 beautifulsoup4==4.4.1
 django-htmlmin==0.8.0
-Flask==0.10.1
+Flask==1.0
 Frozen-Flask==0.12
 html5lib==0.9999999
 itsdangerous==0.24

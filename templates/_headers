@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: document-domain=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' www.google-analytics.com camo.githubusercontent.com; style-src 'self' cdnjs.cloudflare.com fonts.googleapis.com; font-src fonts.gstatic.com; script-src 'self' www.google-analytics.com cdnjs.cloudflare.com; frame-ancestors 'none';

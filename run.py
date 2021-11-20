@@ -18,6 +18,7 @@ def index():
         fnum = int(os.path.basename(fname).split("-")[0])
         with open(fname) as f:
             dicts[fnum] = json.loads(f.read())
+    # Jinja template has a lot of blank lines, clean them up
     return html_minify(render_template("index.html", dicts=dicts))
 
 

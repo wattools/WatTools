@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+django-htmlmin = "*"
+flask = "*"
+frozen-flask = "*"
+html5lib = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+six = "*"
+werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

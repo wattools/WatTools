@@ -1,36 +1,39 @@
 <html>
-<head>
-  <title>WatTools - Feedback</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
-</head>
-<body>
-  <div class="container">
-    <h2>Feedback</h2>
-    <p>Edits/New tools? If you have GitHub, <a href="https://github.com/wattools/WatTools/issues/new">file an issue on GitHub so we can both track the changes!</a> Otherwise, submit your comments here!</p>
-    <form class="form-horizontal" action="https://lku03yxm64.execute-api.us-west-2.amazonaws.com/prod/feedback" method="POST">
-      <p>Let me know who you are, so I can follow up if necessary!</p>
-      <div class="form-group">
-        <label for="name" class="col-sm-1 control-label">Name</label>
-        <div class="col-sm-4">
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+
+  <head>
+    <title>WatTools - Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Feedback</h2>
+      <p>Edits/New tools? If you have GitHub, <a href="https://github.com/wattools/WatTools/issues/new">file an issue on GitHub so we can both track the changes!</a> Otherwise, submit your comments here!</p>
+      <form class="form-horizontal" action="https://lku03yxm64.execute-api.us-west-2.amazonaws.com/prod/feedback" method="POST">
+        <p>Let me know who you are, so I can follow up if necessary!</p>
+        <div class="form-group">
+          <label for="name" class="col-sm-1 control-label">Name</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <label for="email" class="col-sm-1 control-label">Email</label>
-        <div class="col-sm-4">
-          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        <div class="form-group">
+          <label for="email" class="col-sm-1 control-label">Email</label>
+          <div class="col-sm-4">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <label for="message" class="col-sm-1 control-label">Message</label>
-        <div class="col-sm-4">
-          <textarea class="form-control" rows="5" id="message" name="message" required placeholder="Anything goes..."></textarea>
+        <div class="form-group">
+          <label for="message" class="col-sm-1 control-label">Message</label>
+          <div class="col-sm-4">
+            <textarea class="form-control" rows="5" id="message" name="message" required placeholder="Anything goes..."></textarea>
+          </div>
         </div>
-      </div>
-      <input type="submit" id="submit" value="Send Feedback!"/>
-    </form>
-  </div>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
+        <input type="submit" id="submit" value="Send Feedback!" />
+      </form>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </html>

@@ -10,6 +10,319 @@
     },
     {
       "Name": {
+        "text": "Leara",
+        "url": "https://leara.app.link/DCrHdiCcrD"
+      },
+      "Description": {
+        "text": "A mobile app that gives students personalized practice quizzes for all their courses"
+      },
+      "Author": {
+        "text": "Deon Nicholas, Volodymyr Lyubinets"
+      }
+    },
+    {
+      "Name": {
+        "text": "MyClass+",
+        "url": "https://play.google.com/store/apps/details?id=com.YC2010.MyClass"
+      },
+      "Description": {
+        "text": "A uwaterloo course based app. Add your courses, view your calendar, switch to whichever section you want and be ready for all your exams and customized reminder."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/IYCI/MyClass"
+      },
+      "Author": {
+        "text": "Jason Feng"
+      }
+    },
+    {
+      "Name": {
+        "text": "UW Menu",
+        "url": "http://uwmenu.com"
+      },
+      "Description": {
+        "text": "Weekly menus for the University of Waterloo's on-campus eateries."
+      },
+      "Source Code": {
+        "text": "GitHub",
+        "url": "https://github.com\/alykhank\/FoodMenu"
+      },
+      "Author": {
+        "text": "Alykhan Kanji",
+        "url": "http://alykhan.com"
+      }
+    },
+    {
+      "Name": {
+        "text": "Quest Schedule Exporter (JS Webapp)",
+        "url": "http://www.questscheduleexporter.xyz"
+      },
+      "Description": {
+        "text": "Helps export your class schedule so you can use it with Google Calendar, a mobile calendar application or anything else that uses the iCalendar format."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/Trinovantes/Quest-Schedule-Exporter"
+      },
+      "Author": {
+        "text": "Stephen Li",
+        "url": "https://www.stephenli.ca/"
+      }
+    },
+    {
+      "Name": {
+        "text": "UW Parking",
+        "url": "https://play.google.com/store/apps/details?id=com.YC2010.UWparking"
+      },
+      "Description": {
+        "text": "A simple android app for UWaterloo students to found out about current parking space of each parking lot among the campus"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/IYCI/UW_Parking"
+      },
+      "Author": {
+        "text": "Jason Feng"
+      }
+    },
+    {
+      "Name": {
+        "text": "UWaterloo Course Notifier",
+        "url": "http://uw.honghaoz.com\/uw-cen"
+      },
+      "Description": {
+        "text": "A web app used for querying courser schedule and set email alerts for courses. Beautiful interface than Course schedule page."
+      },
+      "Source Code": {
+        "text": "GitHub",
+        "url": "https://github.com\/honghaoz\/UWaterloo-Utilities"
+      },
+      "Author": {
+        "text": "Honghao Zhang"
+      }
+    },
+    {
+      "Name": {
+        "text": "ClassM8",
+        "url": "http://andreiserban.me/classm8/"
+      },
+      "Description": {
+        "text": "ClassM8 allows you to import your schedule, and search around for other courses so you can mess around with courses in your timetable in a very easy way. When you've finally made your perfect timetable, you can go to quest and swap your courses with the ones you chose on ClassM8. ClassM8 doesn't actually do any course swapping for you, it just provides an easy to use interface so you don't have to have 3 tabs open anymore."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/andofcourse/ClassM8"
+      },
+      "Author": {
+        "text": "Andrei Serban"
+      }
+    },
+    {
+      "Name": {
+        "text": "wat do?",
+        "url": "http://www.wat-do.com\/"
+      },
+      "Description": {
+        "text": "A web utility that allows you to easily manage assignments and due dates."
+      },
+      "Authors": {
+        "text": "Jacob Wirth, Justin Li",
+        "url": "http://frustra.org\/"
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/Frustra\/wat-do"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatApp",
+        "url": "https://play.google.com\/store\/apps\/details?id=watapp.main"
+      },
+      "Description": {
+        "text": "WatApps is an unofficial Android App created by UW staff and students with partial funding from Google. "
+      },
+      "Source Code": {
+        "text": "Waterloo",
+        "url": "http://watapp.cs.uwaterloo.ca\/src\/"
+      },
+      "Author": {
+        "text": "Charlie Clarke",
+        "url": "http://plg.uwaterloo.ca\/~claclark\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "You Want Food",
+        "url": "https://projects.zacharyseguin.ca/you-want-food/"
+      },
+      "Description": {
+        "text": "Displays which food outlets are currently open, their hours and menu.\nSignup to receive the daily menu by email."
+      },
+      "Source Code": {
+        "text": "GitHub",
+        "url": "https://github.com\/zachomedia\/you-want-food"
+      },
+      "Author": {
+        "text": "Zachary Seguin",
+        "url": "https://zacharyseguin.ca"
+      }
+    },
+    {
+      "Name": {
+        "text": "Waterloo GPS",
+        "url": "https://github.com\/yingted\/EDTALKS"
+      },
+      "Description": {
+        "text": "Android app which finds the shortest path between two floors in two buildings on campus that does not go outside. Created at EngHack 2013. "
+      },
+      "Source Code": {
+        "text": "Fork me on Github",
+        "url": "https://github.com\/yingted\/EDTALKS"
+      },
+      "Download": {
+        "text": "EDTALKS.apk",
+        "url": "https://db.tt\/vBkMVi7G"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatMine",
+        "url": "https://chrome.google.com\/webstore\/detail\/watmine\/oehnjmhgpdbjiipgeahdfmmbnldakogp"
+      },
+      "Description": {
+        "text": "WatMine is a Chrome extension which performs several functions. Notable ones include auto-login to all CAS sites including LEARN, feds.ca, and JobMine. One-click WatCard and XAS balances with low balance alerts. One-click LEARN activity list from the Chrome toolbar and the option to expand LEARN pages to fill the screen"
+      },
+      "Author": {
+        "text": "Mark Furneaux"
+      },
+      "Download": {
+        "text": "WatMine",
+        "url": "https://chrome.google.com\/webstore\/detail\/watmine\/oehnjmhgpdbjiipgeahdfmmbnldakogp"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatCal",
+        "url": "https://chrome.google.com/webstore/detail/watcal/piajnoiedgkdpnancbojkeeaddpahofd"
+      },
+      "Description": {
+        "text": "A chrome extension that allows you to export your University of Waterloo class schedule to your calendar. Unlike other extensions, WatCal exports your class schedule through the course enrollment results page (instead of the class schedule page) by fetching the class schedule data from UWaterloo's Open Data API."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/imjching/watcal"
+      },
+      "Author": {
+        "text": "Jay Ching Lim"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatCourse",
+        "url": "http://darinyu.github.io\/WatCourse\/"
+      },
+      "Description": {
+        "text": "A better presentation for course information and draggable UI for course arrangement. And of course, it will help you find a non-conflicting schedule. All data pulled from UwaterlooAPI."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com\/darinyu\/WatCourse"
+      },
+      "Author": {
+        "text": "Darin Yu"
+      }
+    },
+    {
+      "Name": {
+        "text": "Watsch",
+        "url": "https://github.com\/j449li\/Watsch"
+      },
+      "Description": {
+        "text": "Chrome extension for Quest Schedule Exporter. Will save you seconds!"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com\/j449li\/Watsch"
+      },
+      "Author": {
+        "text": "Jiazhou Li"
+      }
+    },
+    {
+      "Name": {
+        "text": "Rate My Co-op Job",
+        "url": "http://www.ratemycoopjob.com\/"
+      },
+      "Description": {
+        "text": " With this site you can see what other students think of their past co-op experiences and use that info to find the best position for you. At the end of the day we just want to help you find the most awesome co-op job ever!"
+      },
+      "Author": {
+        "text": "Rate My Co-op Job Team"
+      }
+    },
+    {
+      "Name": {
+        "text": "doGRT - GRT Bus Schedule",
+        "url": "https://itunes.apple.com\/ca\/app\/dogrt-grt-bus-schedule\/id495688038"
+      },
+      "Description": {
+        "text": "Look up the bus stop schedule for KW region, On, Canada. \n\n| Rotate your phone to browse all the stops on map \n| Locate the stops near you on the fly \n| View a route's path by tapping on a schedule time \n| Online update for new schedule \n| Native iPad and iPhone 5 support"
+      },
+      "Author": {
+        "text": "Greg Wang",
+        "url": "http://gregwym.info"
+      },
+      "Download": {
+        "text": "App Store",
+        "url": "https://itunes.apple.com\/ca\/app\/dogrt-grt-bus-schedule\/id495688038"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com\/doLast\/doGRT-iOS"
+      }
+    },
+    {
+      "Name": {
+        "text": "WatBalance",
+        "url": "https://github.com/xbhatnag/watbalance"
+      },
+      "Description": {
+        "text": "Android app that keep track of your WatCard balance and transaction history. Replacement for UWallet. More features. Better design."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/xbhatnag/watbalance"
+      },
+      "Download": {
+        "text": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.cg.watbalance"
+      },
+      "Author": {
+        "text": "Xyan Bhatnagar",
+        "url": "http://xyanbhatnagar.xyz/"
+      }
+    },
+    {
+      "Name": {
+        "text": "Refuse2Logout",
+        "url": "http://userscripts.org\/scripts\/show\/159004"
+      },
+      "Description": {
+        "text": "A greasemonkey script that prevents uWaterloo's Desire2Learn from logging you out automatically."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/vtsatskin\/Refuse2Logout"
+      },
+      "Author": {
+        "text": "Valentin Tsatskin",
+        "url": "http://valentin.tsatsk.in\/"
+      }
+    },
+    {
+      "Name": {
         "text": "OMGUW Reader",
         "url": "https://play.google.com\/store\/apps\/details?id=com.romantymchyk.omguwreader"
       },
@@ -166,6 +479,199 @@
       },
       "Description": {
         "text": "Get an email when a spot opens up in a class you want to take"
+      }
+    },
+    {
+      "Name": {
+        "text": "Grand River Transit",
+        "url": "https://market.android.com\/details?id=net.kw.shrdlu.grtgtfs"
+      },
+      "Description": {
+        "text": "Android app to tell you when the next bus is coming."
+      },
+      "Author": {
+        "text": "Giles Malet",
+        "url": "http://twitter.com\/#!\/gdmalet"
+      }
+    },
+    {
+      "Name": {
+        "text": "GRTransit Android app",
+        "url": "http://baleka.org\/gdmalet\/android\/grtransit\/"
+      },
+      "Description": {
+        "text": "An app for Android that displays bus route and stop information, as well as bus times."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/gdmalet\/grtransit"
+      },
+      "Author": {
+        "text": "Giles Malet"
+      },
+      "Download": {
+        "text": "Play store",
+        "url": "https://play.google.com\/store\/apps\/details?id=net.kw.shrdlu.grtgtfs"
+      }
+    },
+    {
+      "Name": {
+        "text": "Marmo UI",
+        "url": "http://www.lishid.com\/marmo-ui"
+      },
+      "Description": {
+        "text": "MarmoUI is a greasemonkey\/userscript that improves the interface and functionality of the Marmoset submit server so you have less of a pain using it! \nThis includes an overall UI improvement with better colors and formatting of information, auto retrieval of latest submission results for display, and auto reload for submissions waiting to be tested. Also has a quick submission box for easier submissions."
+      },
+      "Source Code": {
+        "url": "http://github.com\/lishd\/MarmoUI",
+        "text": "on Github"
+      },
+      "Author": {
+        "text": "Shida Li",
+        "url": "http://www.lishid.com"
+      },
+      "Author 2": {
+        "text": "Erica Xu",
+        "url": "http://www.ericaxu.com"
+      },
+      "Download": {
+        "url": "http://www.lishid.com\/marmo-ui",
+        "text": "MarmoUI"
+      }
+    },
+    {
+      "Name": {
+        "text": "Marmoset Plus",
+        "url": "https://userscripts.org\/scripts\/show\/134262"
+      },
+      "Description": {
+        "text": "Greasemonkey script to improve the Marmoset user experience. "
+      },
+      "Source Code": {
+        "text": "userscripts.org",
+        "url": "https://userscripts.org\/scripts\/review\/134262"
+      },
+      "Author": {
+        "text": "Vikrem",
+        "url": "https://userscripts.org\/users\/469376"
+      }
+    },
+    {
+      "Name": {
+        "text": "WATisRain (iOS)",
+        "url": "https://itunes.apple.com\/us\/app\/watisrain\/id1021882430"
+      },
+      "Description": {
+        "text": "WATisRain is an iOS app to help you navigate the buildings of the University of Waterloo without going outside (ie, by going through the various tunnels between buildings). This may prove to be useful when it's raining outside, or if it's freezing cold."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/luckytoilet\/WATisRain"
+      },
+      "Author": {
+        "text": "Bai Li",
+        "url": "http://luckytoilet.wordpress.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "What I Wish I Knew for the Design Project",
+        "url": "http://se2014.com\/blog\/2012\/04\/06\/what-i-wish-i-knew-for-the-design-project\/"
+      },
+      "Description": {
+        "text": "Having completed their design projects, the 2012 class of Software Engineering gave an informal presentation on Thursday to share their experiences."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cbhl\/se2014.com\/blob\/master\/source\/_posts\/2012-04-06-what-i-wish-i-knew-for-the-design-project.markdown"
+      },
+      "Author": {
+        "text": "SE2012 \/ SE 2014"
+      }
+    },
+    {
+      "Name": {
+        "text": "uWaterloo API Python Module",
+        "url": "https://pypi.python.org\/pypi\/uwaterlooapi"
+      },
+      "Description": {
+        "text": "Thin Python wrapper for the University of Waterloo Open Data API at api.uwaterloo.ca. Install using `pip install uwaterlooapi`"
+      },
+      "Source Code": {
+        "text": "BitBucket",
+        "url": "https://bitbucket.org\/amjoconn\/uwaterlooapi"
+      },
+      "Author": {
+        "text": "Albert O'Connor",
+        "url": "http://albertoconnor.ca\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "JobMine Buddy",
+        "url": "https://chrome.google.com\/webstore\/detail\/jobmine-buddy\/jimpkgjepjjmbmkeocklkcmjnelcnlci"
+      },
+      "Description": {
+        "text": "Chrome plugin that highlights newly posted jobs and lets you create and view notes about each job posting right in JobMine!"
+      },
+      "Author": {
+        "text": "Sahil Saini"
+      }
+    },
+    {
+      "Name": {
+        "text": "Jobmine Mobile",
+        "url": "https://play.google.com\/store\/apps\/details?id=com.jobmine"
+      },
+      "Description": {
+        "text": "It's the University of Waterloo's Jobmine job board, on your phone\/tablet! Now, you can view your applications and interviews on the go, with notifications for when you finally get that interview!"
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cfayoux\/Jobmine-Android"
+      },
+      "Author": {
+        "text": "Tony Du"
+      }
+    },
+    {
+      "Name": {
+        "text": "Understanding Jobmine job states",
+        "url": "http://www.reddit.com\/r\/uwaterloo\/comments\/192m22\/for_all_you_jobmine_newbies_heres_a_list_of\/"
+      },
+      "Author": {
+        "text": "Pango56",
+        "url": "http://www.reddit.com\/user\/Pango56"
+      }
+    },
+    {
+      "Name": {
+        "text": "JobMine Interview Notifier",
+        "url": "http://soarescode.com\/jobmine_interview_notifier\/"
+      },
+      "Description": {
+        "text": "Allows you to set up automated interview notifications."
+      },
+      "Author": {
+        "text": "Mike Soares",
+        "url": "http://www.mikesoares.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "Jobmine Plus",
+        "url": "http://userscripts.org\/scripts\/show\/80771"
+      },
+      "Description": {
+        "text": "Makes JobMine faster, easier to use, and less aesthetically painful."
+      },
+      "Source Code": {
+        "text": "userscripts.org",
+        "url": "http://userscripts.org\/scripts\/review\/80771"
+      },
+      "Author": {
+        "text": "Matthew Ng",
+        "url": "http://userscripts.org\/users\/matthewng"
       }
     },
     {

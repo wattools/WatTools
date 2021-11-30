@@ -71,48 +71,6 @@
     },
     {
       "Name": {
-        "text": "Marmo UI",
-        "url": "http://www.lishid.com\/marmo-ui"
-      },
-      "Description": {
-        "text": "MarmoUI is a greasemonkey\/userscript that improves the interface and functionality of the Marmoset submit server so you have less of a pain using it! \nThis includes an overall UI improvement with better colors and formatting of information, auto retrieval of latest submission results for display, and auto reload for submissions waiting to be tested. Also has a quick submission box for easier submissions."
-      },
-      "Source Code": {
-        "url": "http://github.com\/lishd\/MarmoUI",
-        "text": "on Github"
-      },
-      "Author": {
-        "text": "Shida Li",
-        "url": "http://www.lishid.com"
-      },
-      "Author 2": {
-        "text": "Erica Xu",
-        "url": "http://www.ericaxu.com"
-      },
-      "Download": {
-        "url": "http://www.lishid.com\/marmo-ui",
-        "text": "MarmoUI"
-      }
-    },
-    {
-      "Name": {
-        "text": "Marmoset Plus",
-        "url": "https://userscripts.org\/scripts\/show\/134262"
-      },
-      "Description": {
-        "text": "Greasemonkey script to improve the Marmoset user experience. "
-      },
-      "Source Code": {
-        "text": "userscripts.org",
-        "url": "https://userscripts.org\/scripts\/review\/134262"
-      },
-      "Author": {
-        "text": "Vikrem",
-        "url": "https://userscripts.org\/users\/469376"
-      }
-    },
-    {
-      "Name": {
         "text": "uw-wkrpt",
         "url": "https://github.com\/kcbanner\/uw-wkrpt"
       },

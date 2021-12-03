@@ -1,15 +1,6 @@
 {"Dead": [
     {
       "Name": {
-        "text": "OMG UW",
-        "url": "http://www.omguw.com\/"
-      },
-      "Description": {
-        "text": "Have one of those moments you've got to share? Got a secret you need to get off your chest? Hear something on campus so stupid it needs to be on the internet?\nThese are OMG moments.\nOMG UW is a blog dedicated to sharing these precious moments at the University of Waterloo. Inspired by FML, grouphug, PostSecret, Overheard at Western and more, this is the place to share your OMG moments easily and anonymously.\nHave fun."
-      }
-    },
-    {
-      "Name": {
         "text": "Leara",
         "url": "https://leara.app.link/DCrHdiCcrD"
       },
@@ -18,6 +9,9 @@
       },
       "Author": {
         "text": "Deon Nicholas, Volodymyr Lyubinets"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -34,6 +28,9 @@
       },
       "Author": {
         "text": "Jason Feng"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -51,6 +48,9 @@
       "Author": {
         "text": "Alykhan Kanji",
         "url": "http://alykhan.com"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -68,6 +68,9 @@
       "Author": {
         "text": "Stephen Li",
         "url": "https://www.stephenli.ca/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -84,6 +87,9 @@
       },
       "Author": {
         "text": "Jason Feng"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -100,6 +106,9 @@
       },
       "Author": {
         "text": "Honghao Zhang"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -116,6 +125,9 @@
       },
       "Author": {
         "text": "Andrei Serban"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -133,6 +145,9 @@
       "Source Code": {
         "text": "github",
         "url": "https://github.com\/Frustra\/wat-do"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -150,6 +165,9 @@
       "Author": {
         "text": "Charlie Clarke",
         "url": "http://plg.uwaterloo.ca\/~claclark\/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -167,6 +185,9 @@
       "Author": {
         "text": "Zachary Seguin",
         "url": "https://zacharyseguin.ca"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -184,6 +205,9 @@
       "Download": {
         "text": "EDTALKS.apk",
         "url": "https://db.tt\/vBkMVi7G"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -200,6 +224,9 @@
       "Download": {
         "text": "WatMine",
         "url": "https://chrome.google.com\/webstore\/detail\/watmine\/oehnjmhgpdbjiipgeahdfmmbnldakogp"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -216,6 +243,9 @@
       },
       "Author": {
         "text": "Jay Ching Lim"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -232,6 +262,9 @@
       },
       "Author": {
         "text": "Darin Yu"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -248,6 +281,9 @@
       },
       "Author": {
         "text": "Jiazhou Li"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -260,6 +296,9 @@
       },
       "Author": {
         "text": "Rate My Co-op Job Team"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -281,6 +320,9 @@
       "Source Code": {
         "text": "Github",
         "url": "https://github.com\/doLast\/doGRT-iOS"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -302,6 +344,9 @@
       "Author": {
         "text": "Xyan Bhatnagar",
         "url": "http://xyanbhatnagar.xyz/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -319,166 +364,9 @@
       "Author": {
         "text": "Valentin Tsatskin",
         "url": "http://valentin.tsatsk.in\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "OMGUW Reader",
-        "url": "https://play.google.com\/store\/apps\/details?id=com.romantymchyk.omguwreader"
       },
-      "Description": {
-        "text": "The OMGUW Reader Android app is an easy way to browse University of Waterloo's favourite blog."
-      },
-      "Author": {
-        "text": "Roman Tymchyk"
-      }
-    },
-    {
-      "Name": {
-        "text": "Course Calendar",
-        "url": "http://uwcourseplanner.com\/calendar\/"
-      },
-      "Description": {
-        "text": "An easy to navigate calendar of course offerings with links to youtube videos, Wikipedia articles on course topics, and interactive prerequisite diagrams"
-      },
-      "Author": {
-        "text": "Yuguang Zhang",
-        "url": "http://yuguangzhang.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "WatWhenWhere",
-        "url": "http://watwhenwhere.ca"
-      },
-      "Description": {
-        "text": "A web app that allows students to find free times to hang out with friends."
-      },
-      "Source Code": {
-        "text": "Github",
-        "url": "https://github.com/nathan4/watwhenwhere"
-      },
-      "Authors": {
-        "text": "Nathaniel Woodthorpe, Edward Lu, Sarth Frey, Shakeel Rao"
-      }
-    },
-    {
-      "Name": {
-        "text": "Course Qualifier",
-        "url": "http://coursequalifier.com\/"
-      },
-      "Description": {
-        "text": "The Course Qualifier helps you generate all possible course timetables without time conflicts. You can choose a path that allows you to sleep in and make the most efficient use of your time."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/cosbynator\/Course-Qualifier"
-      },
-      "Author": {
-        "text": "Thomas Dimson",
-        "url": "http://www.thomasdimson.com\/"
-      },
-      "Source Code:": {
-        "text": "github",
-        "url": "https://github.com\/cosbynator\/Course-Qualifier"
-      }
-    },
-    {
-      "Name": {
-        "text": "WatTaco",
-        "url": "http://wattaco.com"
-      },
-      "Description": {
-        "text": "This tools notifies you when any of the campus restaurants are selling tacos. Why? because tacos are awesome."
-      },
-      "Source Code": {
-        "text": "Github",
-        "url": "https://github.com\/thmsmlr\/wat-taco"
-      },
-      "Author": {
-        "text": "Thomas Millar",
-        "url": "http://thmsmlr.com\/"
-      },
-      "Author 2": {
-        "text": "Laura Vaughan"
-      },
-      "Authors": {
-        "text": "Shane Wilton, Nick Black"
-      }
-    },
-    {
-      "Name": {
-        "text": "UWallet",
-        "url": "https://uwallet.ca\/"
-      },
-      "Description": {
-        "text": "Android app that keep track of your WatCard balance and transaction history."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/andyzg\/UWallet"
-      },
-      "Download": {
-        "text": "Android",
-        "url": "https://play.google.com\/store\/apps\/details?id=ca.uwallet.main"
-      },
-      "Authors": {
-        "text": "Seikun Kambashi, Scott So, Gabriel Wong, Jessica Wu, Andy Zhang"
-      }
-    },
-    {
-      "Name": {
-        "text": "WatFood app",
-        "url": "http://outoflineordering.com\/"
-      },
-      "Description": {
-        "text": "WatFood is an iPhone app. WatFood aims to improve the food ordering experience at the University of Waterloo. View all UW food outlets, hours and any available menus right on your smartphone!"
-      },
-      "Author": {
-        "text": "OutOfLine"
-      }
-    },
-    {
-      "Name": {
-        "text": "Findit Off Campus",
-        "url": "http://www.finditoffcampus.com\/"
-      },
-      "Description": {
-        "text": "Waterloo off campus housing listings near University of Waterloo, Wilfrid Laurier University and Conestoga College"
-      },
-      "Authors": {
-        "text": "Paul and Krishna",
-        "url": "http://www.finditoffcampus.com\/site\/about"
-      }
-    },
-    {
-      "Name": {
-        "text": "Represent  UW",
-        "url": "http://representuw.com\/"
-      },
-      "Description": {
-        "text": "A list of Waterloo student and alumni startups on a map"
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/abenzer\/represent-map"
-      },
-      "Author": {
-        "text": "Sisun Lee",
-        "url": "http://sisunlee.com\/"
-      },
-      "Author 2": {
-        "text": "Kevin Zhang",
-        "url": "http://ca.linkedin.com\/in\/kevinzhang10"
-      }
-    },
-    {
-      "Name": {
-        "text": "CourseAlerts",
-        "url": "http://uw.coursealerts.ca\/"
-      },
-      "Description": {
-        "text": "Get an email when a spot opens up in a class you want to take"
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -492,6 +380,9 @@
       "Author": {
         "text": "Giles Malet",
         "url": "http://twitter.com\/#!\/gdmalet"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -512,6 +403,9 @@
       "Download": {
         "text": "Play store",
         "url": "https://play.google.com\/store\/apps\/details?id=net.kw.shrdlu.grtgtfs"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -537,6 +431,9 @@
       "Download": {
         "url": "http://www.lishid.com\/marmo-ui",
         "text": "MarmoUI"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -554,6 +451,9 @@
       "Author": {
         "text": "Vikrem",
         "url": "https://userscripts.org\/users\/469376"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -571,6 +471,9 @@
       "Author": {
         "text": "Bai Li",
         "url": "http://luckytoilet.wordpress.com\/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -587,6 +490,9 @@
       },
       "Author": {
         "text": "SE2012 \/ SE 2014"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -604,6 +510,9 @@
       "Author": {
         "text": "Albert O'Connor",
         "url": "http://albertoconnor.ca\/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -616,6 +525,9 @@
       },
       "Author": {
         "text": "Sahil Saini"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -632,6 +544,9 @@
       },
       "Author": {
         "text": "Tony Du"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -642,6 +557,9 @@
       "Author": {
         "text": "Pango56",
         "url": "http://www.reddit.com\/user\/Pango56"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -655,6 +573,9 @@
       "Author": {
         "text": "Mike Soares",
         "url": "http://www.mikesoares.com\/"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     },
     {
@@ -672,183 +593,9 @@
       "Author": {
         "text": "Matthew Ng",
         "url": "http://userscripts.org\/users\/matthewng"
-      }
-    },
-    {
-      "Name": {
-        "text": "Ride GRT",
-        "url": "http://ridegrt.com\/"
       },
-      "Description": {
-        "text": "Ride GRT is an unofficial transit application for Grand River Transit servicing the cities of Waterloo, Cambridge, and Kitchener. Ride GRT allows you to quickly save your most common trips and at a glance see when the next bus is leaving. If you use GRT at all, this app is for you!"
-      },
-      "Author": {
-        "text": "Marc Pich\u00e9",
-        "url": "http://mpiche.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "Social UW",
-        "url": "http://socialuw.com\/"
-      },
-      "Description": {
-        "text": "The site provides course specific pages for you to share notes, collaborate anonymously on assignments as well as ask for clarification. There is also a general page to share anything with anyone! Something interesting happen today? Cool event coming up? Post it on SocialUW so that the rest of campus can find out!"
-      }
-    },
-    {
-      "Name": {
-        "text": "Resume Compiler",
-        "url": "http://www.resumecompiler.com"
-      },
-      "Description": {
-        "text": "Resume Compiler - A free tool that lets you construct a robust HTML resume from scratch or paste from your favorite office software.\nDesigned for JobMine!"
-      },
-      "Author": {
-        "text": "David Skinner",
-        "url": "http://www.linkedin.com\/profile\/view?id=99842018"
-      }
-    },
-    {
-      "Name": {
-        "text": "PHP Quest Mark Checker",
-        "url": "http://bn.gs\/quest-markcheck.phps"
-      },
-      "Description": {
-        "text": "Simulates a logon session to Quest in order to check your marks."
-      },
-      "Author": {
-        "text": "Alexander Huynh",
-        "url": "http://hardh.at"
-      }
-    },
-    {
-      "Name": {
-        "text": "UW Direct Connect Hub",
-        "url": "http://uwdc.ca\/"
-      },
-      "Description": {
-        "text": "Share files on the university's intranet at speeds over 10 MB\/s!"
-      }
-    },
-    {
-      "Name": {
-        "text": "Quick Cite",
-        "url": "http://www.quickcite.it\/"
-      },
-      "Description": {
-        "text": "Scan the barcode of a book and receive the citation in your email inbox."
-      },
-      "Authors": {
-        "text": "7cubedproject",
-        "url": "http://7cubedproject.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "UW Chat",
-        "url": "http://www.uwchat.ca\/"
-      },
-      "Description": {
-        "text": "Chat with other people in the same area on campus."
-      },
-      "Authors": {
-        "text": "7cubedproject",
-        "url": "http://7cubedproject.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "Course Select",
-        "url": "http://www.uwlive.ca\/courselect\/"
-      },
-      "Description": {
-        "text": "Courselect helps you look up courses that you might be interested in taking without having to go to several websites to get the job done.\nThere is also information on your textbooks and you can compare prices between the UW BookStore and major online stores."
-      },
-      "Author": {
-        "text": "Scott Kuo",
-        "url": "http://www.scottkuo.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "Waterloo Co-op Map",
-        "url": "http://apps.facebook.com\/co-op_map\/"
-      },
-      "Description": {
-        "text": "Put your work term location on a map and find out where others are working using this Facebook app."
-      },
-      "Author": {
-        "text": "Viktor Stanchev",
-        "url": "http://viktorstanchev.com\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "Bookneto",
-        "url": "https://bookneto.com\/"
-      },
-      "Description": {
-        "text": "A social platform for sharing school related documents such as past exams, notes and books."
-      },
-      "Authors": {
-        "text": "Bookneto",
-        "url": "https://bookneto.com\/public\/about"
-      }
-    },
-    {
-      "Name": {
-        "text": "UW Angel CLI",
-        "url": "https://github.com\/phleet\/UWAngel-CLI"
-      },
-      "Description": {
-        "text": "A command line interface to UW Angel. Can be used to download all your files."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/phleet\/UWAngel-CLI"
-      },
-      "Author": {
-        "text": "Jamie Wong",
-        "url": "http://jamie-wong.com\/"
-      },
-      "Source Code:": {
-        "text": "github",
-        "url": "https://github.com\/phleet\/UWAngel-CLI"
-      }
-    },
-    {
-      "Name": {
-        "text": "UW Data",
-        "url": "http://uwdata.ca\/"
-      },
-      "Description": {
-        "text": "A RESTful API to the University of Waterloo's public data for course information."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "http://github.com\/jverkoey\/uwdata.ca"
-      },
-      "Author": {
-        "text": "Jeff Verkoeyen",
-        "url": "http://jeffverkoeyen.com\/timeline"
-      },
-      "Source Code:": {
-        "text": "github",
-        "url": "http://github.com\/jverkoey\/uwdata.ca"
-      }
-    },
-    {
-      "Name": {
-        "text": "UW Schedule",
-        "url": "http://uwschedule.ca\/"
-      },
-      "Description": {
-        "text": "A social class schedule application for University of Waterloo students."
-      },
-      "Author": {
-        "text": "Casey Banner",
-        "url": "http://caseybanner.ca\/"
+      "Marked Dead": {
+        "text": "01/12/2021"
       }
     }
   ]

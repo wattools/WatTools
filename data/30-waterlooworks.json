@@ -18,6 +18,15 @@
     },
     {
       "Name": {
+        "text": "UWVision",
+        "url": "https://www.uwvision.com/"
+      },
+      "Description": {
+        "text": "Reviews and salary insights for companies that usually hire on WaterlooWorks."
+      }
+    },
+    {
+      "Name": {
         "text": "WaterlooWorks Now",
         "url": "https://chrome.google.com/webstore/detail/waterlooworks-now/mlekdinlcaggpokncinbmomaplhbjpmb"
       },

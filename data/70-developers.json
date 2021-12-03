@@ -1,42 +1,8 @@
 {"Developer-focused":[
     {
       "Name": {
-        "text": "uWaterloo API Python Module",
-        "url": "https://pypi.python.org\/pypi\/uwaterlooapi"
-      },
-      "Description": {
-        "text": "Thin Python wrapper for the University of Waterloo Open Data API at api.uwaterloo.ca. Install using `pip install uwaterlooapi`"
-      },
-      "Source Code": {
-        "text": "BitBucket",
-        "url": "https://bitbucket.org\/amjoconn\/uwaterlooapi"
-      },
-      "Author": {
-        "text": "Albert O'Connor",
-        "url": "http://albertoconnor.ca\/"
-      }
-    },
-    {
-      "Name": {
-        "text": "Waterloo Region Python Group",
-        "url": "http://watpy.ca\/"
-      },
-      "Description": {
-        "text": "Website for the Waterloo Regional Python users group."
-      },
-      "Source Code": {
-        "text": "BitBucket",
-        "url": "https://bitbucket.org\/amjoconn\/watpy\/overview"
-      },
-      "Author": {
-        "text": "Albert O'Connor",
-        "url": "https://bitbucket.org\/amjoconn"
-      }
-    },
-    {
-      "Name": {
         "text": "University of Waterloo API",
-        "url": "http://api.uwaterloo.ca"
+        "url": "https://uwaterloo.ca/api/"
       },
       "Description": {
         "text": "Official University of Waterloo API"

@@ -1,23 +1,6 @@
 {"D2L/Learn": [
     {
       "Name": {
-        "text": "Refuse2Logout",
-        "url": "http://userscripts.org\/scripts\/show\/159004"
-      },
-      "Description": {
-        "text": "A greasemonkey script that prevents uWaterloo's Desire2Learn from logging you out automatically."
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com\/vtsatskin\/Refuse2Logout"
-      },
-      "Author": {
-        "text": "Valentin Tsatskin",
-        "url": "http://valentin.tsatsk.in\/"
-      }
-    },
-    {
-      "Name": {
         "text": "d2lmtfa",
         "url": "https://chrome.google.com\/webstore\/detail\/d2lmtfa\/jmpnkijagnjciddocppeemmbjbnhjecf"
       },
@@ -48,6 +31,23 @@
       "Author": {
         "text": "Stephen Holiday",
         "url": "http://stephenholiday.com\/"
+      }
+    },
+    {
+      "Name": {
+        "text": "Learn Darklight",
+        "url": "https://chrome.google.com/webstore/detail/learn-darklight/lhodieepeghcemhpbloffmljoklaklho"
+      },
+      "Description": {
+        "text": "Learn Darklight offers multiple themes and advanced features for Waterloo Learn."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/zijian-shao/Learn-Darklight"
+      },
+      "Author": {
+        "text": "Zijian Shao",
+        "url": "https://www.zijianshao.com/"
       }
     }
   ]

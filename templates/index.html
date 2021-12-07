@@ -1,54 +1,55 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Waterloo Tools" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://wattools.ca" />
-    <meta property="og:image" content="" />
-    <meta property="og:site_name" content="Waterloo Tools" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta property="og:title" content="Waterloo Tools">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wattools.ca">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Waterloo Tools">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Waterloo Tools - A collection of tools for University of Waterloo students</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans' />
-    <link rel='stylesheet' type='text/css' href='style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <a href="https://github.com/wattools/WatTools"><img class="gh-banner" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <a href="https://github.com/wattools/WatTools"><img class="gh-banner" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"></a>
     <div class="container">
       <div class="header pull-left">
-        <div class='title'>WatTools</div>
-        <p class='text-muted'>A collection of tools for University of Waterloo students, by University of Waterloo students.</p>
-        <p class='text-muted'>This is a wiki. <a href="message.html" target="_blank">Submit your own revisions of the list!</a></p>
+        <div class="title">WatTools</div>
+        <p class="text-muted">A collection of tools for University of Waterloo students, by University of Waterloo students.
+        <p class="text-muted">This is a wiki. <a href="message.html" target="_blank">Submit your own revisions of the list!</a>
       </div>
+
       <div class="clearfix"></div>
 
       <div>
         {% for filenumber, content in dicts|dictsort %}
-        {% for key, value in content.items() %}
-        <h2>{{ key }}</h2>
-        <div id="items-{{key}}" class="row {{ "collapsed" if filenumber > 89 }}">
-          {% for entry in value|sort(attribute='Name.text') %}
-            {% set entry_count = loop.index %}
-            {% include 'entry.html' %}
+          {% for key, value in content.items() %}
+            <h2>{{ key }}</h2>
+            <div id="items-{{key}}" class="row {{ "collapsed" if filenumber > 89 }}">
+              {% for entry in value|sort(attribute='Name.text') %}
+                {% set entry_count = loop.index %}
+                {% include 'entry.html' %}
+              {% endfor %}
+            </div>
+            <hr>
           {% endfor %}
-        </div>
-        <hr>
-        {% endfor %}
         {% endfor %}
       </div>
 
       <div>
-        <p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
-        <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a> and the <a href="https://github.com/orgs/wattools/people">WatTools team</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
-        <p><em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em></p>
+        <p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a>
+        <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a> and the <a href="https://github.com/orgs/wattools/people">WatTools team</a>, derived from <a href="https://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a>
+        <p><em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em>
       </div>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </html>

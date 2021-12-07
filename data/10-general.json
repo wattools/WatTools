@@ -14,13 +14,8 @@
         "url": "https://www.uwliving.com/"
       },
       "Author": {
-<<<<<<< HEAD
         "text": "Matthew Wolfe",
         "url": "https://www.linkedin.com/in/mathyou-wolfe/"
-=======
-        "text": "Viktor Stanchev",
-        "url": "https://blog.viktorstanchev.com/"
->>>>>>> 000cee1 (Enforce HTTPS where possible, Remove/replace dead links)
       },
       "Description": {
         "text": "Reviews for student housing in Waterloo."

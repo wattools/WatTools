@@ -2,7 +2,7 @@
 A directory of various tools for uWaterloo students, generally written _by_ uWaterloo students.
 
 ## Dev
-We currently use Python 3.10.1, but the project works with 3.7+. If you do use a different version of Python, remove `python_version` from the Pipfile.
+We currently use Python 3.7, the latest version of Python supported by Cloudflare Pages. The project works with versions of Python up to 3.10.1. If you do use a different version of Python, remove `python_version` from the Pipfile.
 
 If not already installed, run `pip install pipenv`. Then, run `pipenv install` to download all dependencies.
 

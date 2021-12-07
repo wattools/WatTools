@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:title" content="Waterloo Tools" />
@@ -31,8 +30,8 @@
         <h2>{{ key }}</h2>
         <div id="items-{{key}}" class="row {{ "collapsed" if filenumber > 89 }}">
           {% for entry in value|sort(attribute='Name.text') %}
-          {% set entry_count = loop.index %}
-          {% include 'entry.html' %}
+            {% set entry_count = loop.index %}
+            {% include 'entry.html' %}
           {% endfor %}
         </div>
         <hr>
@@ -42,7 +41,7 @@
 
       <div>
         <p>Greetings traveler, thank you for your interest in this site. If you have any issues with the site, <a href="message.html" target="_blank">let me know!</a></p>
-        <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
+        <p>This site built by <a href="https://kyle.io">Kyle Lexmond</a> and the <a href="https://github.com/orgs/wattools/people">WatTools team</a>, derived from <a href="http://viktorstanchev.com/">Viktor Stanchev</a>'s original site. Source code is available on <a href="https://github.com/wattools/WatTools">Github</a></p>
         <p><em><b>Not</b> affiliated with the <a href="https://uwaterloo.ca/">University of Waterloo</a></em></p>
       </div>
     </div>
@@ -52,5 +51,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   </body>
-
 </html>

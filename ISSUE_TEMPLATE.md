@@ -4,7 +4,7 @@ What category should your request go under?
     {
       "Name": {
         "text": "Tool Name",
-        "url": "http://tool-url.ca"
+        "url": "https://tool-url.ca"
       },
       "Description": {
         "text": "A simple description, not too long please"

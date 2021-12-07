@@ -34,7 +34,7 @@
       },
       "Author": {
         "text": "Vikas Joshi",
-        "url": "http://vikasjoshi.ca\/"
+        "url": "https://vikasjoshi.ca\/"
       },
       "Description": {
         "text": "This is a handy little app that allows students to easily look-up important algebraic propositions for the Math-135 course at the University of Waterloo."
@@ -62,11 +62,11 @@
       },
       "Author": {
         "text": "Ford Peprah",
-        "url": "http://www.hkpeprah.com"
+        "url": "https://www.hkpeprah.com"
       },
       "Download": {
         "text": "Marmoset CLI",
-        "url": "http://raw.github.com\/hkpeprah\/marmoset\/master\/downloads\/Marmoset.tar.gz"
+        "url": "https://raw.github.com\/hkpeprah\/marmoset\/master\/downloads\/Marmoset.tar.gz"
       }
     },
     {
@@ -83,7 +83,7 @@
       },
       "Author": {
         "text": "Casey Banner",
-        "url": "http://caseybanner.ca\/"
+        "url": "https://github.com/kcbanner"
       }
     },
     {

@@ -44,7 +44,7 @@
     {
       "Name": {
         "text": "Bird Courses",
-        "url": "http://birdcourses.com\/university.php?university=1"
+        "url": "https://birdcourses.com\/university.php?university=1"
       },
       "Description": {
         "text": "Looking for easy marks?"
@@ -64,7 +64,7 @@
       },
       "Author": {
         "text": "Viktor Stanchev",
-        "url": "http://viktorstanchev.com"
+        "url": "https://blog.viktorstanchev.com/"
       }
     },
     {
@@ -77,7 +77,7 @@
       },
       "Author": {
         "text": "Baraa Hamodi",
-        "url": "http://baraa.ca/"
+        "url": "https://baraa.ca/"
       }
     }
   ]

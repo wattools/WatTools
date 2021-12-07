@@ -28,6 +28,22 @@
         "text": "Stephen Holiday",
         "url": "http://stephenholiday.com\/"
       }
+    },
+    {
+      "Name": {
+        "text": "The Meticulous US Intern's Guide",
+        "url": "https://anthony-zhang.me/blog/intern-101/"
+      },
+      "Description": {
+        "text": "A detailed to-do list for US internships, from the moment you have an offer to when you’re filing your taxes the year after."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com/Uberi/uberi.github.io/tree/master/blog/intern-101"
+      },
+      "Authors": {
+        "text": "Anthony Zhang"
+      }
     }
   ]
 }

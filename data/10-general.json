@@ -10,23 +10,6 @@
     },
     {
       "Name": {
-        "text": "Waterloo Tools",
-        "url": "https://wattools.ca/"
-      },
-      "Source Code": {
-        "text": "github",
-        "url": "https://github.com/wattools/WatTools"
-      },
-      "Author": {
-        "text": "Viktor Stanchev",
-        "url": "http://viktorstanchev.com"
-      },
-      "Description": {
-        "text": "A collection of tools for University of Waterloo students made by other students."
-      }
-    },
-    {
-      "Name": {
         "text": "UW Living",
         "url": "https://www.uwliving.com/"
       },
@@ -36,6 +19,22 @@
       },
       "Description": {
         "text": "Reviews for student housing in Waterloo."
+      }
+    },
+    {
+      "Name": {
+        "text": "fund-my-watcard",
+        "url": "https://pypi.org/project/fund-my-watcard/"
+      },
+      "Description": {
+        "text": "A tool helps you add funds to your WatCard easily."
+      },
+      "Source Code": {
+        "text": "Find us on github",
+        "url": "https://github.com/xingweitian/fund-my-watcard"
+      },
+      "Authors": {
+        "text": "Weitian Xing, Kevin Lu, Yuxin Fan"
       }
     }
   ]

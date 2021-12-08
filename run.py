@@ -1,10 +1,15 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+import glob
+import json
+import os
+import shutil
+import sys
+
 from flask import Flask, render_template
 
 # flask-frozen code from https://nicolas.perriault.net/code/2012/dead-easy-yet-powerful-static-website-generator-with-flask/
 from flask_frozen import Freezer
 from htmlmin.minify import html_minify
-import glob, json, shutil, sys, os
 
 app = Flask(__name__)
 freezer = Freezer(app)
@@ -16,9 +21,8 @@ def index():
     files = sorted(glob.glob("data/*.json"))
     for fname in files:
         fnum = int(os.path.basename(fname).split("-")[0])
-        with open(fname) as f:
+        with open(fname, encoding="utf8") as f:
             dicts[fnum] = json.loads(f.read())
-    # Jinja template has a lot of blank lines, clean them up
     return html_minify(render_template("index.html", dicts=dicts))
 
 
@@ -30,7 +34,7 @@ if __name__ == "__main__":
         for f in files:
             shutil.copy(os.path.join("templates", f), "build")
         # Empty favicon to avoid 404s
-        with open("build/favicon.ico", "a") as f:
+        with open("build/favicon.ico", "a", encoding="utf8") as f:
             pass
 
     else:

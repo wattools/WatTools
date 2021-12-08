@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-import boto3
-import logging
 import os
+import logging
 from urllib.parse import parse_qs
 
+import boto3
 
 def handler(event, context):
     log = logging.getLogger()

@@ -36,6 +36,22 @@
       "Authors": {
         "text": "Weitian Xing, Kevin Lu, Yuxin Fan"
       }
+    },
+    {
+      "Name": {
+        "text": "Mr. Transcript",
+        "url": "https://wa-transcript.herokuapp.com/"
+      },
+      "Description": {
+        "text": "Web application for UW students that scrapes a transcript to calculate GPA on a 4.0 scale."
+      },
+      "Source Code": {
+        "text": "Github Link",
+        "url": "https://github.com/colelin26/wat-transcript"
+      },
+      "Authors": {
+        "text": "Cole Lin"
+      }
     }
   ]
 }

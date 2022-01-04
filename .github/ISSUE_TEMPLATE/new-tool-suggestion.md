@@ -7,9 +7,7 @@ assignees: ''
 
 ---
 
-```
-Category that the tool best fits under: Some Category Here
-```
+Category that the tool best fits under: `Some Category Here`
 
 ```
   {

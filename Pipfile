@@ -9,3 +9,9 @@ flask = "*"
 frozen-flask = "*"
 
 [dev-packages]
+
+[scripts]
+
+build = "./run.py build"
+run = "./run.py"
+devbuild = "./run.py"

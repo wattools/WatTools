@@ -1,4 +1,5 @@
-{"Weather":[
+{
+  "Weather": [
     {
       "Name": {
         "text": "Weatherloo - Chrome extension",
@@ -45,4 +46,5 @@
         "url": "https://connorcimowsky.com\/"
       }
     }
-  ]}
+  ]
+}

@@ -3,13 +3,14 @@
     {
       "Name": {
         "text": "University of Waterloo API",
-        "url": "https://uwaterloo.ca/api/"
+        "url": "https://api.data.uwaterloo.ca/index.html"
       },
       "Description": {
         "text": "Official University of Waterloo API"
       },
       "Author": {
-        "text": "Kartik Talwar"
+        "text": "Data, Integration, and Analytics (DIA) team at IST",
+        "url": "https://uwaterloo.atlassian.net/wiki/spaces/UWAPI/overview?homepageId=34019779320"
       }
     }
   ]

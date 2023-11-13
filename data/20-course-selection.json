@@ -31,19 +31,6 @@
     },
     {
       "Name": {
-        "text": "UWPath",
-        "url": "https://uwpath.live"
-      },
-      "Description": {
-        "text": "UWPath is a degree planning website built for UWaterloo students. You can plan your courses in our degree planner, where we verify prerequisites, corequisites, antirequisites and degree fulfillment on your behalf."
-      },
-      "Authors": {
-        "text": "Hao Wei Huang, Calder Lund, Kevin Feng, Adrian Pasqualini",
-        "url": "https://uwpath.live/About"
-      }
-    },
-    {
-      "Name": {
         "text": "Bird Courses",
         "url": "https://birdcourses.com\/university.php?university=1"
       },

@@ -11,19 +11,6 @@
     },
     {
       "Name": {
-        "text": "UW Living",
-        "url": "https://www.uwliving.com/"
-      },
-      "Author": {
-        "text": "Matthew Wolfe",
-        "url": "https://www.linkedin.com/in/mathyou-wolfe/"
-      },
-      "Description": {
-        "text": "Reviews for student housing in Waterloo."
-      }
-    },
-    {
-      "Name": {
         "text": "fund-my-watcard",
         "url": "https://pypi.org/project/fund-my-watcard/"
       },
@@ -36,22 +23,6 @@
       },
       "Authors": {
         "text": "Weitian Xing, Kevin Lu, Yuxin Fan"
-      }
-    },
-    {
-      "Name": {
-        "text": "Mr. Transcript",
-        "url": "https://wa-transcript.herokuapp.com/"
-      },
-      "Description": {
-        "text": "Web application for UW students that scrapes a transcript to calculate GPA on a 4.0 scale."
-      },
-      "Source Code": {
-        "text": "Github Link",
-        "url": "https://github.com/colelin26/wat-transcript"
-      },
-      "Authors": {
-        "text": "Cole Lin"
       }
     }
   ]

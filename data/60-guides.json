@@ -45,6 +45,25 @@
       "Authors": {
         "text": "Anthony Zhang"
       }
+    },
+    {
+      "Name": {
+        "text": "What I Wish I Knew for the Design Project",
+        "url": "https://github.com\/cbhl\/se2014.com\/blob\/master\/source\/_posts\/2012-04-06-what-i-wish-i-knew-for-the-design-project.markdown"
+      },
+      "Description": {
+        "text": "Having completed their design projects, the 2012 class of Software Engineering gave an informal presentation on Thursday to share their experiences."
+      },
+      "Source Code": {
+        "text": "github",
+        "url": "https://github.com\/cbhl\/se2014.com\/blob\/master\/source\/_posts\/2012-04-06-what-i-wish-i-knew-for-the-design-project.markdown"
+      },
+      "Author": {
+        "text": "SE2012 \/ SE 2014"
+      },
+      "Marked Dead": {
+        "text": "01/12/2021"
+      }
     }
   ]
 }

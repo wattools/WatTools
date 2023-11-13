@@ -101,6 +101,22 @@
       "Author": {
         "text": "Philip Duncan"
       }
+    },
+    {
+      "Name": {
+        "text": "Marmoset Monkey",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/marmoset-monkey/"
+      },
+      "Description": {
+        "text": "Ease-of-use features (e.g. auto-retrieve latest submission results) and UI enhancements for the Marmoset assignment submission site. Only for use with Firefox."
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/MikeRossXYZ/marmoset-monkey"
+      },
+      "Authors": {
+        "text": "Mike Ross"
+      }
     }
   ]
 }

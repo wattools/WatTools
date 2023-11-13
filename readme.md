@@ -17,3 +17,14 @@ The project is currently hosted on Cloudflare Pages to remove as much overhead a
 
 ## Tool Removal Cycle
 When tools have become unmaintained or are otherwise broken, they will be moved to the "Dead" category. In `99-dead.json` these entries will include a `Marked Dead` field. After being marked dead for >= 1 month, entries in the file are eligible to be fully removed.
+
+## Legacy
+### wattools.com
+Launched Aug 2011 (https://www.reddit.com/r/uwaterloo/comments/j93yk/wattools_a_collection_of_tools_for_university_of/)
+Domain lapsed (https://www.reddit.com/r/uwaterloo/comments/3xjjvy/what_happened_to_wattoolscom/)
+### uwaterloo.xyz
+Relaunched Jan 2016 (https://www.reddit.com/r/uwaterloo/comments/3zmgx7/i_gave_up_waiting_for_wattools_to_be_fixed_and/)
+Domain transferred to the university in Nov 2021 
+### wattools.ca
+Transferred domains in Nov 2021 to make sure the university won't be annoyed at new people taking over (https://www.reddit.com/r/uwaterloo/comments/qxsnfa/any_active_student_want_to_take_over/)
+Currently the domain is paid for through Nov 2024, but is set to not auto-renew, and will expire unless transferred. (registered through Canspace - https://www.canspace.ca/)

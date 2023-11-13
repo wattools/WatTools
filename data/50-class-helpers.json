@@ -30,27 +30,6 @@
     },
     {
       "Name": {
-        "text": "Math 135",
-        "url": "https://play.google.com\/store\/apps\/details?id=com.algebraicpropositions&hl=en"
-      },
-      "Author": {
-        "text": "Vikas Joshi",
-        "url": "https://vikasjoshi.ca\/"
-      },
-      "Description": {
-        "text": "This is a handy little app that allows students to easily look-up important algebraic propositions for the Math-135 course at the University of Waterloo."
-      },
-      "Source Code": {
-        "text": "GitHub",
-        "url": "https://github.com\/vikasj\/Math135-App"
-      },
-      "Download": {
-        "text": "Play Store",
-        "url": "https://play.google.com\/store\/apps\/details?id=com.algebraicpropositions&hl=en"
-      }
-    },
-    {
-      "Name": {
         "text": "Marmoset CLI",
         "url": "https://github.com\/hkpeprah\/marmoset"
       },

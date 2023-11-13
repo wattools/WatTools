@@ -2,32 +2,6 @@
   "WaterlooWorks": [
     {
       "Name": {
-        "text": "UW Info Session (iOS app)",
-        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
-      },
-      "Description": {
-        "text": "UWaterloo Info Session is an unofficial iOS app used by students at University of Waterloo to query updated employer information sessions. Never look up the info session calendar again!"
-      },
-      "Author": {
-        "text": "Honghao Zhang",
-        "url": "https://honghaoz.com\/"
-      },
-      "Download": {
-        "text": "App Store",
-        "url": "https://itunes.apple.com\/app\/uw-info-session\/id837207884?ls=1&mt=8"
-      }
-    },
-    {
-      "Name": {
-        "text": "UWVision",
-        "url": "https://www.uwvision.com/"
-      },
-      "Description": {
-        "text": "Reviews and salary insights for companies that usually hire on WaterlooWorks."
-      }
-    },
-    {
-      "Name": {
         "text": "WaterlooWorks Now",
         "url": "https://chrome.google.com/webstore/detail/waterlooworks-now/mlekdinlcaggpokncinbmomaplhbjpmb"
       },

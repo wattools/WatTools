@@ -8,11 +8,8 @@
   font-size: 0.9rem;
 }
 
-.gh-banner {
-  border: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+.github-fork-ribbon:before {
+  background-color: #333; 
 }
 
 .tool-block {

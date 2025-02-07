@@ -24,6 +24,22 @@
       "Authors": {
         "text": "Weitian Xing, Kevin Lu, Yuxin Fan"
       }
+    },
+      {
+      "Name": {
+        "text": "WATIsGrass",
+        "url": "https://watisgrass.vercel.app/"
+      },
+      "Description": {
+        "text": "A helpful guide to navigate UW's bridges and tunnels"
+      },
+      "Source Code": {
+        "text": "Github",
+        "url": "https://github.com/rickyqin005/WATIsGrass"
+      },
+      "Authors": {
+        "text": "Ricky Qin, Manasva Katyal"
+      }
     }
   ]
 }
